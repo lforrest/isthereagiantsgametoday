@@ -37,12 +37,27 @@ a#counter:hover { border: 0; text-decoration: underline; }
 <script type="text/javascript">
 $(document).ready(function(){
 var url='giants2011schedule-test.json';
-        $.getJSON(url,function(json){
-            $.each(json.games,function(i,game){
-               $("#results").append('<p>' + game.date + ": " + game.teams+' @ '+game.location+'</p>');
-            });
+
+    //
+
+    var today = new Date(2011, 1, 27);
+   
+    $.getJSON(url,function(json){
+        $.each(json.games,function(i,game){
+            var nextGameDate = new Date(game.date);
+                
+            alert("Today: " + today + " - Looking at game: " + nextGameDate);
+        
+            if(today.getYear() == nextGameDate.getYear() && today.getMonth() == nextGameDate.getMonth() && today.getDate() == nextGameDate.getDate()) {
+              alert("There's a game today!");
+            }
+            
+           //$("#results").append('<p>' + game.date + ": " + game.teams+' @ '+game.location+'</p>');
         });
+    });
+        
 });
+
 </script>
 
 
