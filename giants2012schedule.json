@@ -1,0 +1,16 @@
+({
+   "title": "Giants Games Schedule",
+   "link": "http://www.isthereagiantsgametoday.com/",
+   "games": [
+      {
+         "date": "4/6/2012",
+         "opponent":"D-backs",
+         "location":"Chase Field"
+      },
+      {
+         "date": "4/7/2012",
+         "opponent":"D-backs",
+         "location":"Chase Field"
+      },
+    ] 
+})

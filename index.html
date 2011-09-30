@@ -26,7 +26,7 @@ a#counter:hover { border: 0; text-decoration: underline; }
 <span class="fill-in">...</span>
 </div>
 <div id="todaysgame" style="display: none"><a href="http://sanfrancisco.giants.mlb.com/">Today's Game</a> is <span class="time"></span> against <span class="opponent"></span></div>
-<div id="nextgame" style="display: none">The next game is on <span class="date"></span></div>
+<div id="nextgame" style="display: none">The next game is on <span class="date"></span> against <span class="opponent"></span> at <span class="location"></span></div>
 <div id="results">
 </div>
 </center>
@@ -41,11 +41,11 @@ function isDateLaterThan(a, b) {
 }
 
 $(document).ready(function(){
-var url='giants2011schedule-test.json';
+var url='giants2012schedule.json';
 
     //
 
-    var today = new Date(2011, 1, 28);
+    var today = new Date();
     var nextGame = null;
     var todaysGame = null;
     
@@ -64,17 +64,20 @@ var url='giants2011schedule-test.json';
               
             }
             
-           //$("#results").append('<p>' + game.date + ": " + game.teams+' @ '+game.location+'</p>');
         });
         if (todaysGame) {
           $(".fill-in").text("YES");
           $("#todaysgame .time").text(todaysGame.date);
-          $("#todaysgame .opponent").text(todaysGame.teams);
+          $("#todaysgame .opponent").text(todaysGame.opponent);
+          $("#todaysgame .location").text(todaysGame.location);
           $("#todaysgame").show();
         } else {
-          $(".fill-in").text("NOPE");
+          $(".fill-in").text("NO");
           $("#nextgame .date").text(nextGame.date);
+          $("#nextgame .opponent").text(nextGame.opponent);
+          $("#nextgame .location").text(nextGame.location);
           $("#nextgame").show();
+
         }
     });
         
