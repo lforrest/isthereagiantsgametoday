@@ -73,7 +73,7 @@
                   $("#nextgame .date").text(nextGame.date);
                   $("#nextgame .opponent").text(nextGame.opponent);
                   $("#nextgame .location").text(nextGame.location);
-                  if (todaysGame.location == "AT&T Ballpark") {
+                  if (nextGame.location == "AT&T Ballpark") {
                     $("#nextgame .location").addClass("homegame");
                     $("body").addClass("homegame-bg");
                   }
