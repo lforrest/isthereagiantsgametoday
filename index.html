@@ -1,102 +1,90 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<title>
-Is there a Giants game today?
-</title>
-<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-<style type="text/css">
-
-body { margin: auto; }
-#isthere { margin-top: 10%; font-size: 50px; }
-#yesno { font-size: 150px; }
-#todaysgame, #nextgame { font-size: 50px; }
-
-a:link, a:visited { text-decoration: none; color: black; }
-a:hover { border-bottom: 2px solid black ; }
-a#counter:hover { border: 0; text-decoration: underline; }
-
-.fill-in { font-family: 'Permanent Marker', arial, serif; }
-</style>
-</head>
-<body>
-<center>
-    <div id="isthere">Is there a Giants game today?</div>
-    <div id="yesno">
-        <span class="fill-in">...</span>
-    </div>
-    <div id="todaysgame" style="display: none"><a href="http://sanfrancisco.giants.mlb.com/">Today's game</a> is <span class="time"></span> against <span class="opponent"></span></div>
-    <div id="nextgame" style="display: none">The next game is on <span class="date"></span> against <span class="opponent"></span> at <span class="location"></span></div>
-</center>
-
-<script type="text/javascript" src="time.js?v1"></script>
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-function isDateLaterThan(a, b) {
-  return a > b;
-}
-
-$(document).ready(function(){
-var url='giants2012schedule.json';
-
-    var today = new Date();
-    var nextGame = null;
-    var todaysGame = null;
+    <head>
+        <title>Is there a Giants game today?</title>
+        <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+            body { margin: auto; }
+            #isthere { margin-top: 10%; font-size: 50px; }
+            #yesno { font-size: 150px; }
+            #todaysgame, #nextgame { font-size: 50px; }
+            
+            a:link, a:visited { text-decoration: none; color: black; }
+            a:hover { border-bottom: 2px solid black ; }
+            a#counter:hover { border: 0; text-decoration: underline; }
+            
+            .fill-in { font-family: 'Permanent Marker', arial, serif; }
+        </style>
+    </head>
+    <body>
+        <center>
+            <div id="isthere">Is there a Giants game today?</div>
+            <div id="yesno">
+                <span class="fill-in">...</span>
+            </div>
+            <div id="todaysgame" style="display: none"><a href="http://sanfrancisco.giants.mlb.com/">Today's game</a> is <span class="time"></span> against <span class="opponent"></span></div>
+            <div id="nextgame" style="display: none">The next game is on <span class="date"></span> against <span class="opponent"></span> at <span class="location"></span></div>
+        </center>
     
-    $.getJSON(url,function(json){
-        $.each(json.games,function(i,game){
-            var nextGameDate = new Date(game.date);
-                
-            console.log("Today: " + today + " - Looking at game: " + nextGameDate);
-
-          if (!nextGame && isDateLaterThan(nextGameDate, today))
-            nextGame = game;
-          
-            if(today.getYear() == nextGameDate.getYear() && today.getMonth() == nextGameDate.getMonth() && today.getDate() == nextGameDate.getDate()) {
-              console.log("There's a game today!");
-              todaysGame = game;
-            }            
-        });
-        
-        if (todaysGame) {
-          $(".fill-in").text("YES");
-          $("#todaysgame .time").text(todaysGame.date);
-          $("#todaysgame .opponent").text(todaysGame.opponent);
-          $("#todaysgame .location").text(todaysGame.location);
-          $("#todaysgame").show();
-        } else {
-          $(".fill-in").text("NO");
-          $("#nextgame .date").text(nextGame.date);
-          $("#nextgame .opponent").text(nextGame.opponent);
-          $("#nextgame .location").text(nextGame.location);
-          $("#nextgame").show();
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        function isDateLaterThan(a, b) {
+          return a > b;
         }
-    });
         
-});
-
-</script>
-
-
-<!--Google Analytics Script-->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-19429437-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</body>
+        $(document).ready(function(){
+        var url='giants2012schedule.json';
+        
+            var today = new Date();
+            var nextGame = null;
+            var todaysGame = null;
+            
+            $.getJSON(url,function(json){
+                $.each(json.games,function(i,game){
+                    var nextGameDate = new Date(game.date);
+                        
+                    console.log("Today: " + today + " - Looking at game: " + nextGameDate);
+        
+                  if (!nextGame && isDateLaterThan(nextGameDate, today))
+                    nextGame = game;
+                  
+                    if(today.getYear() == nextGameDate.getYear() && today.getMonth() == nextGameDate.getMonth() && today.getDate() == nextGameDate.getDate()) {
+                      console.log("There's a game today!");
+                      todaysGame = game;
+                    }            
+                });
+                
+                if (todaysGame) {
+                  $(".fill-in").text("YES");
+                  $("#todaysgame .time").text(todaysGame.date);
+                  $("#todaysgame .opponent").text(todaysGame.opponent);
+                  $("#todaysgame .location").text(todaysGame.location);
+                  $("#todaysgame").show();
+                } else {
+                  $(".fill-in").text("NO");
+                  $("#nextgame .date").text(nextGame.date);
+                  $("#nextgame .opponent").text(nextGame.opponent);
+                  $("#nextgame .location").text(nextGame.location);
+                  $("#nextgame").show();
+                }
+            });
+                
+        });    
+        </script>
+    
+        <!--Google Analytics Script-->
+        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-19429437-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
+    </body>
 </html>
-
-
-
-
