@@ -2,6 +2,11 @@
   "version": "0.1",  
   "name": "Is there a Giants game today?",  
   "description": "Are the Giants playing today? Get info about the next game.",
+  "icons": {  
+    "16": "/img/icon-16.png",  
+    "48": "/img/icon-48.png",  
+    "128": "/img/icon-128.png"  
+  },
   "developer": {  
     "name": "William R",  
     "url": "http://dailycavalier.com"  
