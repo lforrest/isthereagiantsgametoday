@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+    <meta charset="utf-8">
     <head>
         <title>Is there a Giants game today?</title>
         <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
@@ -27,8 +28,8 @@
             <div id="yesno">
                 <span class="fill-in">...</span>
             </div>
-            <div id="todaysgame" style="display: none"><a href="http://sanfrancisco.giants.mlb.com/">Today's game</a> is <span class="time"></span> against <span class="opponent"></span></div>
-            <div id="nextgame" style="display: none">The next game is on <span class="date"></span> against <span class="opponent"></span> at <span class="location"></span></div>
+            <div id="todaysgame" style="display: none"><a href="http://sanfrancisco.giants.mlb.com/">Today's game</a> is <span class="time"></span> against the <span class="opponent"></span> at <span class="location"></span></div>
+            <div id="nextgame" style="display: none">The next game is on <span class="date"></span> against the <span class="opponent"></span> at <span class="location"></span></div>
             <div id="datecheck"></div>
         </center>
 
@@ -55,46 +56,46 @@
             var dateString = curr_month + "/" + curr_date + "/" + curr_year;
             
             // Create datepicker
-            $("#datecheck").html('Checking <input id="datepicker" type="text">');
-    		$( "#datepicker" ).datepicker();
+            // $("#datecheck").html('Checking <input id="datepicker" type="text">');
+    		// $( "#datepicker" ).datepicker();
 
-            //$(".datepicker").datepicker.("setDate", dateString);
+            // $(".datepicker").datepicker.("setDate", dateString);
         
             // Check for game today
             $.getJSON(url,function(json){
                 $.each(json.games,function(i,game){
                     var nextGameDate = new Date(game.date);
-                        
-                    console.log("Today: " + today + " - Looking at game: " + nextGameDate);
+                       
+                    // Uncomment for debugging 
+                    // console.log("Today: " + today + " - Looking at game: " + nextGameDate);
         
                   if (!nextGame && isDateLaterThan(nextGameDate, today))
                     nextGame = game;
                   
                     if(today.getYear() == nextGameDate.getYear() && today.getMonth() == nextGameDate.getMonth() && today.getDate() == nextGameDate.getDate()) {
-                      console.log("There's a game today!");
                       todaysGame = game;
                     }            
                 });
                 
                 if (todaysGame) {
                   $(".fill-in").text("YES");
-                  $("#todaysgame .time").text(todaysGame.date);
+                  // $("#todaysgame .time").text(todaysGame.date);
                   $("#todaysgame .opponent").text(todaysGame.opponent);
                   $("#todaysgame .location").text(todaysGame.location);
-                  if (todaysGame.location == "AT&T Park") {
-                    $("#todaysgame .location").addClass("homegame");
-                    $("body").addClass("homegame-bg");
-                  }
+                  // if (todaysGame.location == "AT&T Park") {
+                  //   $("#todaysgame .location").addClass("homegame");
+                  //  $("body").addClass("homegame-bg");
+                  // }
                   $("#todaysgame").show();
                 } else {
                   $(".fill-in").text("NO");
                   $("#nextgame .date").text(nextGame.date);
                   $("#nextgame .opponent").text(nextGame.opponent);
                   $("#nextgame .location").text(nextGame.location);
-                  if (nextGame.location == "AT&T Park") {
-                    $("#nextgame .location").addClass("homegame");
-                    $("body").addClass("homegame-bg");
-                  }
+                  // if (nextGame.location == "AT&T Park") {
+                  //  $("#nextgame .location").addClass("homegame");
+                  //   $("body").addClass("homegame-bg");
+                  // }
                   $("#nextgame").show();
                 }
             });
