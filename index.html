@@ -11,20 +11,18 @@
             #yesno { font-size: 150px; }
             #todaysgame, #nextgame { font-size: 50px; }
             
-            a:link, a:visited { text-decoration: none; color: black; }
+            a:link, a:visited { text-decoration: none; color: #D2612F; }
             a:hover { border-bottom: 2px solid black ; }
             a#counter:hover { border: 0; text-decoration: underline; }
             
             .fill-in { font-family: 'Permanent Marker', arial, serif; }
-            .homegame-bg { background: #000000; }
-            .awaygame-bg { background: #FFFFFF}
-            .homegame { color: #D2612F; }
-            .awaygame { color: #000000; }
+            .homegame { background: #000000; color: #D2612F; }
+            .awaygame { background: #FFFFFF; color: #000000; }
         </style>
     </head>
     <body>
         <center>
-            <div id="isthere">Is there a Giants game today?</div>
+            <div id="isthere">Is there a Giants game today? </div>
             <div id="yesno">
                 <span class="fill-in">...</span>
             </div>
@@ -42,7 +40,7 @@
         }
         
         $(document).ready(function(){
-        var url='giants2012schedule.json';
+            var url='data/giants2012schedule.json';
         
             var today = new Date();
             var nextGame = null;
@@ -78,16 +76,18 @@
                 });
                 
                 if (todaysGame) {
-                  $(".fill-in").text("YES");
-                  // $("#todaysgame .time").text(todaysGame.date);
-                  $("#todaysgame .opponent").text(todaysGame.opponent);
-                  $("#todaysgame .location").text(todaysGame.location);
-                  // if (todaysGame.location == "AT&T Park") {
-                  //   $("#todaysgame .location").addClass("homegame");
-                  //  $("body").addClass("homegame-bg");
-                  // }
-                  $("#todaysgame").show();
-                } else {
+                    $(".fill-in").text("YES");
+                    $("#todaysgame .opponent").text(todaysGame.opponent);
+                    $("#todaysgame .location").text(todaysGame.location);
+                    if (todaysGame.location == "AT&T Park") {
+                        $("body").addClass("homegame");
+                     }
+                     else {
+                        $("body").addClass("homegame");
+                     }
+                    $("#todaysgame").show();
+                }
+                else {
                   $(".fill-in").text("NO");
                   $("#nextgame .date").text(nextGame.date);
                   $("#nextgame .opponent").text(nextGame.opponent);
