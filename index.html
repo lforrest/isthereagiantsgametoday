@@ -4,7 +4,6 @@
     <head>
         <title>Is there a Giants game today?</title>
         <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-        <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.18.custom.css" rel="stylesheet" />	
         <style type="text/css">
             body { margin: auto; }
             #isthere { margin-top: 10%; font-size: 50px; }
@@ -26,8 +25,8 @@
             <div id="yesno">
                 <span class="fill-in">...</span>
             </div>
-            <div id="todaysgame" style="display: none"><a href="http://sanfrancisco.giants.mlb.com/">Today's game</a> is <span class="time"></span> against the <span class="opponent"></span> at <span class="location"></span></div>
-            <div id="nextgame" style="display: none">The next game is on <span class="date"></span> against the <span class="opponent"></span> at <span class="location"></span></div>
+            <div id="todaysgame" style="display: none">Giants are playing the <span class="opponent"></span><br /> <span class="time"></span> at <span class="location"></span></div>
+            <div id="nextgame" style="display: none">Giants will play the <span class="opponent"></span><br /> on <span class="date"></span> <br /> <span class="time"></span> at <span class="location"></span></div>
             <div id="datecheck"></div>
         </center>
 
@@ -79,11 +78,12 @@
                     $(".fill-in").text("YES");
                     $("#todaysgame .opponent").text(todaysGame.opponent);
                     $("#todaysgame .location").text(todaysGame.location);
+                    $("#todaysgame .time").text(todaysGame.time);
                     if (todaysGame.location == "AT&T Park") {
                         $("body").addClass("homegame");
                      }
                      else {
-                        $("body").addClass("homegame");
+                        $("body").addClass("awaygame");
                      }
                     $("#todaysgame").show();
                 }
@@ -92,6 +92,7 @@
                   $("#nextgame .date").text(nextGame.date);
                   $("#nextgame .opponent").text(nextGame.opponent);
                   $("#nextgame .location").text(nextGame.location);
+                  $("#nextgame .time").text(nextGame.time);
                   // if (nextGame.location == "AT&T Park") {
                   //  $("#nextgame .location").addClass("homegame");
                   //   $("body").addClass("homegame-bg");
