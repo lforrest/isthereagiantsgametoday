@@ -8,7 +8,7 @@
             body { margin: auto; }
             #isthere { margin-top: 5%; font-size: 50px; }
             #yesno { margin-bottom: 2em; }
-            #game { font-size: 50px; }
+            #game { font-size: 50px; width: 60%; }
             #footer { margin: 30px; }
             
             a:link, a:visited { text-decoration: none; color: #D2612F; }
@@ -34,6 +34,7 @@
                 <span class="summary">Giants play the 
                       <span class="opponent"></span>
                 </span>
+                <span class="day"></span>
                 <span class="dtstart">
                     <abbr class="value" style="display: none"></abbr>
                         <span class="time value"></span>
@@ -74,8 +75,10 @@
         
             // Check for game today
             $.getJSON(url,function(json){
+                var nextGameDate;
+                
                 $.each(json.games,function(i,game){
-                    var nextGameDate = new Date(game.date);
+                    nextGameDate = new Date(game.date);
                        
                     // Uncomment for debugging 
                     // console.log("Today: " + today + " - Looking at game: " + nextGameDate);
@@ -108,6 +111,11 @@
                   $("#game .date").text(nextGame.date);
                   $("#game .summary").text("Giants will play the " + nextGame.opponent);
                   $("#game .location").text(nextGame.location);
+                  
+                  // Formate next game date as day of the week
+                  var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+                  var nextGameDay = weekday[nextGameDate.getDay()];
+                  $("#game .day").text("on " + nextGameDay);
                   $("#game .time").text(nextGame.time);
                   // if (nextGame.location == "AT&T Park") {
                   //  $("#nextgame .location").addClass("homegame");
