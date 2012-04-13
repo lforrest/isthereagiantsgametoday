@@ -1,5 +1,5 @@
 {  
-  "version": "0.1",  
+  "version": "1.0",  
   "name": "Is there a Giants game today?",  
   "description": "Are the Giants playing today? Get info about the next game.",
   "icons": {  
@@ -12,7 +12,7 @@
     "url": "http://dailycavalier.com"  
   },
   "installs_allowed_from": [  
-    "https://appstore.mozillalabs.com",
+    "https://marketplace.mozilla.org",
     "https://apps-preview.mozilla.org"  
   ],  
   "default_locale": "en"  
