@@ -4,8 +4,9 @@
 
 To get a local copy of the current code, clone it using git:
 
-$ git clone git://github.com/lforrest/isthereagiantsgametoday.git isthereagiantsgametoday
-$ cd isthereagiantsgametoday
+    $ git clone git://github.com/lforrest/isthereagiantsgametoday.git isthereagiantsgametoday
+
+    $ cd isthereagiantsgametoday
 
 ## Contributing
 
