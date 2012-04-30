@@ -21,6 +21,7 @@
             .homeaway { font-weight: bold; font-size: 50px; }
             .home { background: #000000; color: #D2612F; }
             .away { background: #FFFFFF; color: #000000; }
+            .score {font-size: 16px;}
         </style>
     </head>
     <body>
@@ -44,6 +45,50 @@
                 <span class="dt-end dtend">
                     <span class="tend value"></span>
                 </span>
+                <br>
+                <span class="boxscore">
+                  <table>
+                    <tr>
+                      <td class="team"></td>
+                      <td class="inning">1</td>
+                      <td class="inning">2</td>
+                      <td class="inning">3</td>
+                      <td class="inning">4</td>
+                      <td class="inning">5</td>
+                      <td class="inning">6</td>
+                      <td class="inning">7</td>
+                      <td class="inning">8</td>
+                      <td class="inning">9</td>
+                      <td class="inning">F</td>
+                    </tr>
+                    <tr class="awayscore">
+                      <td class="awayteam"></td>
+                      <td class="score1"></td>
+                      <td class="score2"></td>
+                      <td class="score3"></td>
+                      <td class="score4"></td>
+                      <td class="score5"></td>
+                      <td class="score6"></td>
+                      <td class="score7"></td>
+                      <td class="score8"></td>
+                      <td class="score9"></td>
+                      <td class="awayruns"></td>
+                    </tr>
+                    <tr class="homescore">
+                      <td class="hometeam"></td>
+                      <td class="score1"></td>
+                      <td class="score2"></td>
+                      <td class="score3"></td>
+                      <td class="score4"></td>
+                      <td class="score5"></td>
+                      <td class="score6"></td>
+                      <td class="score7"></td>
+                      <td class="score8"></td>
+                      <td class="score9"></td>
+                      <td class="homeruns"></td>
+                    </tr>
+                  </table>
+                </span>
             </div>
 
             <div id="datecheck"></div>
@@ -66,7 +111,11 @@
         
         $(document).ready(function(){
             var url='data/giants2012schedule.json';
-        
+            
+            // var linescore_url = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_04/day_27/gid_2012_04_27_sdnmlb_sfnmlb_1/linescore.json';
+
+            var linescore_url = 'data/linescore.json';
+
             var today = new Date();
             var nextGame = null;
             var todaysGame = null;
@@ -78,6 +127,24 @@
             var curr_year = today.getFullYear();
             var dateString = curr_month + "/" + curr_date + "/" + curr_year;
             
+            $.getJSON(linescore_url, function(json) {
+              // body...
+              console.log(json.data.game);
+
+                $("#game .awayteam").append(json.data.game.away_team_name);
+                $.each(json.data.game.linescore, function(i,inning){
+                  $("#game .awayscore .score" + (i+1)).append(inning.away_inning_runs);
+                });
+                $("#game .awayruns").append(json.data.game.away_team_runs);
+
+                $("#game .hometeam").append(json.data.game.home_team_name);
+                $.each(json.data.game.linescore, function(i,inning){
+                  $("#game .homescore .score" + (i+1)).append(inning.home_inning_runs);
+                });
+                $("#game .homeruns").append(json.data.game.home_team_runs);
+                // $("#game .score").append("<br>");
+            });
+
             // Create datepicker
             // $("#datecheck").html('Checking <input id="datepicker" type="text">');
     		// $( "#datepicker" ).datepicker();
@@ -143,18 +210,18 @@
         </script>
     
         <!--Google Analytics Script-->
-        <script type="text/javascript">
+        // <script type="text/javascript">
         
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-19429437-1']);
-          _gaq.push(['_trackPageview']);
+        //   var _gaq = _gaq || [];
+        //   _gaq.push(['_setAccount', 'UA-19429437-1']);
+        //   _gaq.push(['_trackPageview']);
         
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
+        //   (function() {
+        //     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        //     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        //     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        //   })();
         
-        </script>
+        // </script>
     </body>
 </html>
