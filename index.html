@@ -21,14 +21,19 @@
             .homeaway { font-weight: bold; font-size: 50px; }
             .home { background: #000000; color: #D2612F; }
             .away { background: #FFFFFF; color: #000000; }
-            .boxscore {font-size: 16px; width: 400px; margin: 30px auto 10px auto;}
-            .boxscore table, td {
+            .boxscore {font-size: 16px; width: 370px; margin: 30px auto 10px auto;}
+            .boxscore table {
               border: 1px solid #666;
-              width: 350px;
+              width: 370px;
             }
-            .boxscore td {border: 1px solid #666;}
+            .boxscore td {border: 1px solid #666; width: 25px;}
+            .boxscore .team, .awayteam, .hometeam {
+              text-align: left;
+              width: 100px;
+            }
             .boxscore .inning {color: #666;}
-            .boxscore .final {color: #BBB; font-weight:bold;}
+            .boxscore .giants {color: #D2612F; font-weight:bold;}
+            .boxscore .opponent {color: #000000; font-weight: bold;}
         </style>
     </head>
     <body>
@@ -79,7 +84,7 @@
                       <td class="score7"></td>
                       <td class="score8"></td>
                       <td class="score9"></td>
-                      <td class="awayruns final"></td>
+                      <td class="awayruns"></td>
                     </tr>
                     <tr class="homescore">
                       <td class="hometeam"></td>
@@ -92,7 +97,7 @@
                       <td class="score7"></td>
                       <td class="score8"></td>
                       <td class="score9"></td>
-                      <td class="homeruns final"></td>
+                      <td class="homeruns"></td>
                     </tr>
                   </table>
                 </div>
@@ -133,24 +138,6 @@
             curr_month++;
             var curr_year = today.getFullYear();
             var dateString = curr_month + "/" + curr_date + "/" + curr_year;
-            
-            $.getJSON(linescore_url, function(json) {
-              // body...
-              console.log(json.data.game);
-
-                $("#game .awayteam").append(json.data.game.away_team_name);
-                $.each(json.data.game.linescore, function(i,inning){
-                  $("#game .awayscore .score" + (i+1)).append(inning.away_inning_runs);
-                });
-                $("#game .awayruns").append(json.data.game.away_team_runs);
-
-                $("#game .hometeam").append(json.data.game.home_team_name);
-                $.each(json.data.game.linescore, function(i,inning){
-                  $("#game .homescore .score" + (i+1)).append(inning.home_inning_runs);
-                });
-                $("#game .homeruns").append(json.data.game.home_team_runs);
-                // $("#game .score").append("<br>");
-            });
 
             // Create datepicker
             // $("#datecheck").html('Checking <input id="datepicker" type="text">');
@@ -212,7 +199,38 @@
                   $("#game").show();
                 }
             });
-                
+            $.getJSON(linescore_url, function(json) {
+            // body...
+            console.log(json.data.game);
+
+              $("#game .awayteam").append(json.data.game.away_team_name);
+              $.each(json.data.game.linescore, function(i,inning){
+                $("#game .awayscore .score" + (i+1)).append(inning.away_inning_runs);
+              });
+              $("#game .awayruns").append(json.data.game.away_team_runs);
+
+              $("#game .hometeam").append(json.data.game.home_team_name);
+              $.each(json.data.game.linescore, function(i,inning){
+                $("#game .homescore .score" + (i+1)).append(inning.home_inning_runs);
+              });
+              $("#game .homeruns").append(json.data.game.home_team_runs);
+
+              if (json.data.game.venue == "AT&T Park") {
+                $("#game .homeruns").addClass("giants");
+                $("#game .awayruns").addClass("opponent");
+                $("#game .hometeam").text("Giants");
+                $("#game .awayteam").text(json.data.game.away_team_name);
+              }
+              else {
+                $("#game .homeruns").addClass("opponent");
+                $("#game .awayruns").addClass("giants");
+                $("#game .awayteam").text("Giants");
+                $("#game .hometeam").text(json.data.game.home_team_name);
+              }
+            });
+
+
+
         });    
         </script>
     
