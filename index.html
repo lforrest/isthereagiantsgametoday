@@ -32,8 +32,8 @@
               width: 100px;
             }
             .boxscore .inning {color: #666;}
-            .boxscore .giants {color: #D2612F; font-weight:bold;}
-            .boxscore .opponent {color: #000000; font-weight: bold;}
+            .boxscore .giants {color: #FFF;}
+            .boxscore .opponent {color: #FFF;}
         </style>
     </head>
     <body>
@@ -127,6 +127,7 @@
             // var linescore_url = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_04/day_27/gid_2012_04_27_sdnmlb_sfnmlb_1/linescore.json';
 
             var linescore_url = 'data/linescore.json';
+            var linescore_url_dyn = '';
 
             var today = new Date();
             var nextGame = null;
@@ -160,9 +161,38 @@
                   
                     if(today.getYear() == nextGameDate.getYear() && today.getMonth() == nextGameDate.getMonth() && today.getDate() == nextGameDate.getDate()) {
                       todaysGame = game;
-                    }            
-                });
+                    }   
+
+                if (curr_month < 10) {
+                  if (curr_date<10) {
+                    linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_0' + 
+                    curr_month + '/day_0' + curr_date + '/' + game.url + 'linescore.json';
+                  } 
+                  else {
+                    linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_0' + 
+                    curr_month + '/day_' + curr_date + '/' + game.url + 'linescore.json;'
+                  }
+                }
+                else {
+                  if (curr_date<10)
+                  {
+                    linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_' + 
+                    curr_month + '/day_0' + curr_date + '/' + game.url + 'linescore.json';
+                  } 
+                  else {
+                    linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_' + 
+                    curr_month + '/day_' + curr_date + '/' + game.url + 'linescore.json;'
+                  }
+                }
                 
+                console.log(linescore_url_dyn);         
+                });
+
+                // linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_0' + 
+                // curr_month + '/day_' + curr_date + '/gid_2012_0' + curr_month + '_' + curr_date + 
+                // '_';
+                // console.log(linescore_url_dyn);
+
                 if (todaysGame) {
                     $(".fill-in").text("YES");
                     $("#game .summary").text("Giants play the " + todaysGame.opponent);
@@ -228,8 +258,6 @@
                 $("#game .hometeam").text(json.data.game.home_team_name);
               }
             });
-
-
 
         });    
         </script>

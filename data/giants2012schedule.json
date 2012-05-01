@@ -138,175 +138,204 @@
          "date": "5/1/2012",
          "opponent":"Marlins",
          "time": "7:15pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_01_miamlb_sfnmlb_1"
       },
       {
          "date": "5/2/2012",
          "opponent":"Marlins",
          "time": "7:15pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_02_miamlb_sfnmlb_1"
       },
       {
          "date": "5/3/2012",
          "opponent":"Marlins",
          "time": "12:45pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_03_miamlb_sfnmlb_1"
       },
       {
          "date": "5/4/2012",
          "opponent":"Brewers",
          "time": "7:15pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_04_milmlb_sfnmlb_1"
       },
       {
          "date": "5/5/2012",
          "opponent":"Brewers",
          "time": "1:05pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_05_milmlb_sfnmlb_1"
       },
       {
          "date": "5/6/2012",
          "opponent":"Brewers",
          "time": "1:05pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_06_milmlb_sfnmlb_1"
       },
       {
          "date": "5/7/2012",
          "opponent":"Dodgers",
          "time": "7:10pm",
-         "location":"Dodger Stadium"
+         "location":"Dodger Stadium",
+         "url":"gid_2012_05_07_sfnmlb_lanmlb_1"
       },
       {
          "date": "5/8/2012",
          "opponent":"Dodgers",
          "time": "7:10pm",
-         "location":"Dodger Stadium"
+         "location":"Dodger Stadium",
+         "url":"gid_2012_05_08_sfnmlb_lanmlb_1"
       },
       {
          "date": "5/9/2012",
          "opponent":"Dodgers",
          "time": "7:15pm",
-         "location":"Dodger Stadium"
+         "location":"Dodger Stadium",
+         "url":"gid_2012_05_09_sfnmlb_lanmlb_1"
       },
       {
          "date": "5/11/2012",
          "opponent":"D-backs",
          "time": "6:40pm",
-         "location":"Chase Field"
+         "location":"Chase Field",
+         "url":"gid_2012_05_11_sfnmlb_arimlb_1"
       },
       {
          "date": "5/12/2012",
          "opponent":"D-backs",
          "time": "5:10pm",
-         "location":"Chase Field"
+         "location":"Chase Field",
+         "url":"gid_2012_05_12_sfnmlb_arimlb_1"
       },
       {
          "date": "5/13/2012",
          "opponent":"D-backs",
          "time": "1:10pm",
-         "location":"Chase Field"
+         "location":"Chase Field",
+         "url":"gid_2012_05_13_sfnmlb_arimlb_1"
       },
       {
          "date": "5/14/2012",
          "opponent":"Rockies",
          "time": "7:15pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_14_colmlb_sfnmlb_1"
       },
       {
          "date": "5/15/2012",
          "opponent":"Rockies",
          "time": "7:15pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_15_colmlb_sfnmlb_1"
       },
       {
          "date": "5/16/2012",
          "opponent":"Cardinals",
          "time": "7:15pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_16_slnmlb_sfnmlb_1"
       },
       {
          "date": "5/17/2012",
          "opponent":"Cardinals",
          "time": "12:45pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_17_slnmlb_sfnmlb_1"
       },
       {
          "date": "5/18/2012",
          "opponent":"Athletics",
          "time": "7:15pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_18_oaknmlb_sfnmlb_1"
       },
       {
          "date": "5/19/2012",
          "opponent":"Athletics",
          "time": "1:05pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_19_oaknmlb_sfnmlb_1"
       },
       {
          "date": "5/20/2012",
          "opponent":"Athletics",
          "time": "1:05pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_20_oaknmlb_sfnmlb_1"
       },
       {
          "date": "5/21/2012",
          "opponent":"Brewers",
          "time": "5:10pm",
-         "location":"Miller Park"
+         "location":"Miller Park",
+         "url":"gid_2012_05_21_sfnnmlb_milmlb_1"
       },
       {
          "date": "5/22/2012",
          "opponent":"Brewers",
          "time": "5:10pm",
-         "location":"Miller Park"
+         "location":"Miller Park",
+         "url":"gid_2012_05_22_sfnnmlb_milmlb_1"
       },
       {
          "date": "5/23/2012",
          "opponent":"Brewers",
          "time": "10:10am",
-         "location":"Miller Park"
+         "location":"Miller Park",
+         "url":"gid_2012_05_23_sfnnmlb_milmlb_1"
       },
       {
          "date": "5/24/2012",
          "opponent":"Marlins",
          "time": "4:10pm",
-         "location":"Marlins Park"
+         "location":"Marlins Park",
+         "url":"gid_2012_05_24_sfnnmlb_flomlb_1"
       },
       {
          "date": "5/25/2012",
          "opponent":"Marlins",
          "time": "4:10pm",
-         "location":"Marlins Park"
+         "location":"Marlins Park",
+         "url":"gid_2012_05_25_sfnnmlb_flomlb_1"
       },
       {
          "date": "5/26/2012",
          "opponent":"Marlins",
          "time": "1:10pm",
-         "location":"Marlins Park"
+         "location":"Marlins Park",
+         "url":"gid_2012_05_26_sfnnmlb_flomlb_1"
       },
       {
          "date": "5/27/2012",
          "opponent":"Marlins",
          "time": "10:10am",
-         "location":"Marlins Park"
+         "location":"Marlins Park",
+         "url":"gid_2012_05_27_sfnnmlb_flomlb_1"
       },
       {
          "date": "5/28/2012",
          "opponent":"D-back",
          "time": "2:05pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_28_arinmlb_sfnmlb_1"
       },
       {      
          "date": "5/29/2012",
          "opponent":"D-back",
          "time": "7:15pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_29_arinmlb_sfnmlb_1"
       },
       {
          "date": "5/30/2012",
          "opponent":"D-back",
          "time": "7:15pm",
-         "location":"AT&T Park"
+         "location":"AT&T Park",
+         "url":"gid_2012_05_30_arinmlb_sfnmlb_1"
       },
       {
          "date": "6/1/2012",
