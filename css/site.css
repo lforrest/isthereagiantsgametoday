@@ -1,19 +1,15 @@
-<<<<<<< HEAD
 body { margin: auto; font-family: Helvetica, Arial, sans-serif;
   line-height:1.3; text-align:center; width:60%; margin:0 auto;}
 #isthere { margin-top: 5%; font-size: 50px; }
 #yesno { margin-bottom: 2em; border-top:1px solid #D2612F;
   border-bottom:1px solid #D2612F; padding-bottom:30px;}
-=======
 body {font-family: Helvetica, Arial, sans-serif; line-height:1.3; text-align:center; width:60%; margin:0 auto;}
 #isthere { margin-top: 5%; font-size: 50px; }
 #yesno { margin-bottom: 2em; border-top:1px solid #D2612F; border-bottom:1px solid #D2612F; padding-bottom:30px;}
->>>>>>> ac8f909b504e75243b6d2d6a75ba43807f8878e2
 #game { font-size: 50px; }
 #footer { margin: 30px; }
 
 a:link, a:visited { text-decoration: none; color: #D2612F; }
-<<<<<<< HEAD
 a:hover { border-bottom: 2px solid black ; }
 a#counter:hover { border: 0; text-decoration: underline; }
 
@@ -34,7 +30,6 @@ a#counter:hover { border: 0; text-decoration: underline; }
 .boxscore .inning {color: #666;}
 .boxscore .giants {color: #D2612F;}
 .boxscore .opponent {color: #AAA;}
-=======
 a:hover { border-bottom: 2px solid #000; }
 a#counter:hover { border: 0; text-decoration: underline; }
 
@@ -43,4 +38,3 @@ a#counter:hover { border: 0; text-decoration: underline; }
 .homeaway { font-weight: bold; font-size: 50px; }
 .home { background: #000; color: #D2612F; }
 .away { background: #FFF; color: #000; }
->>>>>>> ac8f909b504e75243b6d2d6a75ba43807f8878e2
