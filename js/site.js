@@ -4,6 +4,7 @@ function isDateLaterThan(a, b) {
 
 /* from https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date */
 function ISODateString(d){  
+<<<<<<< HEAD
     function pad(n){return n<10 ? '0'+n : n}  
     return d.getUTCFullYear()+'-'  
         + pad(d.getUTCMonth()+1)+'-'  
@@ -40,6 +41,14 @@ $(document).ready(function(){
     var url='http://dev.pablo/isthereagiantsgametoday/data/giants2012schedule.json';            
     // var linescore_url = '/isthereagiantsgametoday/data/linescore.json?callback=?q';
     // var linescore_url_dyn = '';            
+=======
+    function pad(n){return n<10 ? '0'+n : n;}  
+    return d.getUTCFullYear()+'-'+ pad(d.getUTCMonth()+1)+'-'+ pad(d.getUTCDate());
+}  
+
+$(document).ready(function(){
+    var url = 'data/giants2012schedule.json';
+>>>>>>> ac8f909b504e75243b6d2d6a75ba43807f8878e2
 
     var today = new Date();
     var nextGame = null;
@@ -50,6 +59,7 @@ $(document).ready(function(){
     var curr_month = today.getMonth() + 1;
     var curr_year = today.getFullYear();
     // var dateString = curr_month + "/" + curr_date + "/" + curr_year;
+<<<<<<< HEAD
 
     // Create datepicker
     // $("#datecheck").html('Checking <input id="datepicker" type="text">');
@@ -104,6 +114,36 @@ $(document).ready(function(){
 
         
 
+=======
+    
+    // Create datepicker
+    // $("#datecheck").html('Checking <input id="datepicker" type="text">');
+    // $("#datepicker").datepicker();
+
+    // $(".datepicker").datepicker.("setDate", dateString);
+
+    // Check for game today               
+    $.getJSON(url, function(json){
+        var nextGameDate;
+        
+        $.each(json.games,function(i,game){
+            nextGameDate = new Date(game.date);
+               
+            // Uncomment for debugging 
+            // console.log("Today: " + today + " - Looking at game: " + nextGameDate);
+
+          if (!nextGame && isDateLaterThan(nextGameDate, today)){
+            nextGame = game;
+            return false; // break the loop
+          }
+          
+            if(today.getYear() == nextGameDate.getYear() && today.getMonth() == nextGameDate.getMonth() && today.getDate() == nextGameDate.getDate()) {
+              todaysGame = game;
+              return false; // break the loop
+            }            
+        });
+        
+>>>>>>> ac8f909b504e75243b6d2d6a75ba43807f8878e2
         if (todaysGame) {
             $(".fill-in").text("YES");
             $("#game .summary").text("Giants play the " + todaysGame.opponent);
@@ -123,16 +163,25 @@ $(document).ready(function(){
             $("#game").show();
         }
         else {
+<<<<<<< HEAD
           console.log("nextGame date: " + nextGame.date);
+=======
+>>>>>>> ac8f909b504e75243b6d2d6a75ba43807f8878e2
           $(".fill-in").text("NO");
           $("#game .date").text(nextGame.date);
           $("#game .summary").text("Giants will play the " + nextGame.opponent);
           $("#game .location").text(nextGame.location);
           
+<<<<<<< HEAD
           // Formate next game date as day of the week
           var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
           var nextGameDay = weekday[nextGameDate.getDay()];
           // console.log("nextGameDate: " + nextGameDate);
+=======
+          // Format next game date as day of the week
+          var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+          var nextGameDay = weekday[nextGameDate.getDay()];
+>>>>>>> ac8f909b504e75243b6d2d6a75ba43807f8878e2
           $("#game .day").text("on " + nextGameDay);
           $("#game .tstart").text(nextGame.time);
           // if (nextGame.location == "AT&T Park") {
@@ -141,6 +190,7 @@ $(document).ready(function(){
           // }
           $("#game").show();
         }
+<<<<<<< HEAD
     // });
     // console.log("linescore-url-dyn: " + linescore_url_dyn);
     
@@ -171,3 +221,8 @@ $(document).ready(function(){
         });
 
 });
+=======
+    });                
+});    
+
+>>>>>>> ac8f909b504e75243b6d2d6a75ba43807f8878e2

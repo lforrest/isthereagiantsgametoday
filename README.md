@@ -8,6 +8,18 @@ To get a local copy of the current code, clone it using git:
 
     $ cd isthereagiantsgametoday
 
+## Running the code
+
+Open the JavaScript console in Google Chrome:
+
+option + command + J
+
+If you get this error:
+
+XMLHttpRequest cannot load file:/// ... giants2012schedule.json. Origin null is not allowed by Access-Control-Allow-Origin.
+
+It's because you're trying to open the page without a web server running. To test your changes locally, you will need to start up Apache. If you're on OS X, you probably already have it preinstalled. You can also try MAMP.
+
 ## Contributing
 
 isthereagiantsgametoday.com is a community-driven project, so contributors are always welcome. Simply fork our repo and contribute away. Good starting places for picking a bug are the TODOs listed below.
