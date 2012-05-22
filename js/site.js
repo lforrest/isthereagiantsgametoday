@@ -12,15 +12,19 @@ function ISODateString(d){
 
 function populatescore(_json) {
     $("#game .awayteam").append(_json.query.results.json.data.game.away_team_name);
-    $.each(_json.query.results.json.data.game.linescore, function(i, inning) {
-        $("#game .awayscore .score" + (i + 1)).append(inning.away_inning_runs);
-    });
-    $("#game .awayruns").append(_json.query.results.json.data.game.away_team_runs);
     $("#game .hometeam").append(_json.query.results.json.data.game.home_team_name);
     $.each(_json.query.results.json.data.game.linescore, function(i, inning) {
+        $("#game .awayscore .score" + (i + 1)).append(inning.away_inning_runs);
         $("#game .homescore .score" + (i + 1)).append(inning.home_inning_runs);
+        if (i>8) {
+            $("#game .boxheader").append("<td class='inning'>" + (i+1) + "</td>");
+            $("#game .awayscore").append("<td class='score" + (i+1) + "'>" + inning.away_inning_runs + "</td>");
+            $("#game .homescore").append("<td class='score" + (i+1) + "'>" + inning.home_inning_runs + "</td>");
+        }
     });
-    $("#game .homeruns").append(_json.query.results.json.data.game.home_team_runs);
+    $("#game .boxheader").append("<td class='inning'>F</td>");
+    $("#game .awayscore").append("<td class='awayruns'>" + _json.query.results.json.data.game.away_team_runs + "</td>");
+    $("#game .homescore").append("<td class='homeruns'>" + _json.query.results.json.data.game.home_team_runs + "</td>");
 
     if (_json.query.results.json.data.game.venue == "AT&T Park") {
         $("#game .homeruns").addClass("giants");
@@ -37,10 +41,10 @@ function populatescore(_json) {
 }
 
 function make_y_url(_url) {
-    var y_prefix = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20json%20where%20url%3D'";
-    var encoded = encodeURIComponent(_url);
-    var y_url = y_prefix + encoded + "'&format=json&diagnostics=true&callback=?";
-    return y_url;
+    var _y_prefix = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20json%20where%20url%3D'";
+    var _encoded = encodeURIComponent(_url);
+    var _y_url = _y_prefix + _encoded + "'&format=json&diagnostics=true&callback=?";
+    return _y_url;
 }
 
 $(document).ready(function(){
@@ -50,6 +54,8 @@ $(document).ready(function(){
     var today = new Date();
     var nextGame = null;
     var todaysGame = null;
+    var linescore_url_dyn = "";
+    var y_url = "";
     
     // Format date as MM/DD/YY
     var curr_date = today.getDate();
@@ -62,14 +68,12 @@ $(document).ready(function(){
 	// $( "#datepicker" ).datepicker();
 
     // $(".datepicker").datepicker.("setDate", dateString);
-    console.log("ready");
     
     // Check for game today
     $.getJSON(url,function(data){
         // console.log("fire");
         // console.log(data);
         var nextGameDate;
-        var callbackstring = '';
         
         $.each(data.games,function(i,game){
             nextGameDate = new Date(game.date);
@@ -86,36 +90,31 @@ $(document).ready(function(){
         if (todaysGame) {
             if (curr_month < 10) {
               if (curr_date<10) {
-                linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_0' + 
-                curr_month + '/day_0' + curr_date + '/' + todaysGame.url + '/linescore.json' + callbackstring;
+                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2012/month_0" + 
+                curr_month + "/day_0" + curr_date + "/" + todaysGame.url + "/linescore.json";
               } 
               else {
-                linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_0' + 
-                curr_month + '/day_' + curr_date + '/' + todaysGame.url + '/linescore.json' + callbackstring;
+                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2012/month_0" + 
+                curr_month + "/day_" + curr_date + "/" + todaysGame.url + "/linescore.json";
               }
             }
             else {
               if (curr_date<10)
               {
-                linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_' + 
-                curr_month + '/day_0' + curr_date + '/' + todaysGame.url + '/linescore.json' + callbackstring;
+                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2012/month_" + 
+                curr_month + "/day_0" + curr_date + "/" + todaysGame.url + "/linescore.json";
               } 
               else {
-                linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_' + 
-                curr_month + '/day_' + curr_date + '/' + todaysGame.url + '/linescore.json' + callbackstring;
+                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2012/month_" + 
+                curr_month + "/day_" + curr_date + "/" + todaysGame.url + "/linescore.json";
               }
             }
         }
-        var madeurl = make_y_url(linescore_url_dyn);
+        y_url = make_y_url(linescore_url_dyn);
+        $.getJSON(y_url, function(json){
+            populatescore(json); 
+        });
     });
-    
-    $.getJSON(yurl, function(json){
-        console.log(json);
-        populatescore(json); 
-    });
-        // var linescore_url_dyn = 'http://gd2.mlb.com/components/game/mlb/year_2012/month_04/day_27/gid_2012_04_27_sdnmlb_sfnmlb_1/linescore.json';
-    
-    
     
     // Create datepicker
     // $("#datecheck").html('Checking <input id="datepicker" type="text">');
@@ -163,7 +162,6 @@ $(document).ready(function(){
             $("#game").show();
         }
         else {
-          console.log("nextGame date: " + nextGame.date);
           $(".fill-in").text("NO");
           $("#game .date").text(nextGame.date);
           $("#game .summary").text("Giants will play the " + nextGame.opponent);
