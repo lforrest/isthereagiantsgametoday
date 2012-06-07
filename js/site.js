@@ -49,8 +49,6 @@ function make_y_url(_url) {
 
 $(document).ready(function(){
     var url = 'data/giants2012schedule.json';
-    var url='http://dev.pablo/isthereagiantsgametoday/data/giants2012schedule.json'; 
-    var yurl = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20json%20where%20url%3D'http%3A%2F%2Fgd2.mlb.com%2Fcomponents%2Fgame%2Fmlb%2Fyear_2012%2Fmonth_05%2Fday_19%2Fgid_2012_05_19_oakmlb_sfnmlb_1%2Flinescore.json'&format=json&diagnostics=true&callback=?";
     var today = new Date();
     var nextGame = null;
     var todaysGame = null;
@@ -71,8 +69,6 @@ $(document).ready(function(){
     
     // Check for game today
     $.getJSON(url,function(data){
-        // console.log("fire");
-        // console.log(data);
         var nextGameDate;
         
         $.each(data.games,function(i,game){
