@@ -17,15 +17,16 @@ a#counter:hover { border: 0; text-decoration: underline; }
 .homeaway { font-weight: bold; font-size: 50px; }
 .home { background: #000000; color: #D2612F; }
 .away { background: #FFFFFF; color: #000000; }
-.boxscore {font-size: 16px; width: 480px; margin: 30px auto 10px auto;}
+.boxscore {font-size: 16px; width: 500px; margin: 30px auto 10px auto;}
 .boxscore table {
   border: 1px solid #666;
-  width: 480px;
+/*  width: 480px;*/
 }
-.boxscore td {border: 1px solid #666; width: 25px;}
+.boxscore td {border: 1px solid #666; min-width: 25px; width:30px;}
 .boxscore .team, .awayteam, .hometeam {
   text-align: left;
   width: 120px;
+  padding-left: 5px;
 }
 .boxscore .inning {color: #666;}
 .boxscore .giants {color: #D2612F;}
