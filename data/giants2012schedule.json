@@ -979,6 +979,31 @@
          "opponent":"Dodgers",
          "time": "4:15pm",
          "location":"Dodger Stadium"
-      }
+      },
+         "date": "10/6/2012",
+         "opponent":"Reds",
+         "time": "6:37pm",
+         "location":"AT&T Park"
+      },      
+               "date": "10/7/2012",
+         "opponent":"Reds",
+         "time": "6:37pm",
+         "location":"AT&T Park"
+      },
+               "date": "10/9/2012",
+         "opponent":"Reds",
+         "time": "2:37pm",
+         "location":"Great American Ballpark"
+      },
+               "date": "10/10/2012",
+         "opponent":"Reds",
+         "time": "9:00am",
+         "location":"Great American Ballpark"
+      },
+               "date": "10/11/2012",
+         "opponent":"Reds",
+         "time": "9:00am",
+         "location":"Great American Ballpark"
+      },
     ] 
 }
