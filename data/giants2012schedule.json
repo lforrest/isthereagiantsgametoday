@@ -1009,6 +1009,36 @@
          "opponent": "Reds",
          "time": "9:00am",
          "location": "Great American Ballpark"
+      },
+      {
+         "date": "10/14/2012",
+         "opponent": "Cardinals",
+         "time": "5:07pm",
+         "location": "AT&T Park"
+      },
+      {
+         "date": "10/15/2012",
+         "opponent": "Cardinals",
+         "time": "5:07pm",
+         "location": "AT&T Park"
+      },
+      {
+         "date": "10/17/2012",
+         "opponent": "Cardinals",
+         "time": "1:07pm",
+         "location": "Busch Stadium"
+      },
+      {
+         "date": "10/18/2012",
+         "opponent": "Cardinals",
+         "time": "5:07pm",
+         "location": "Busch Stadium"
+      },
+      {
+         "date": "10/19/2012",
+         "opponent": "Cardinals",
+         "time": "5:07pm",
+         "location": "Busch Stadium"
       }
     ] 
 }
