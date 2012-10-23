@@ -1045,6 +1045,36 @@
          "opponent": "Cardinals",
          "time": "5:07pm",
          "location": "AT&T Park"
-      }
+      },
+      {
+         "date": "10/24/2012",
+         "opponent": "Tigers",
+         "time": "5:07pm",
+         "location": "AT&T Park"
+      },
+      {
+         "date": "10/25/2012",
+         "opponent": "Tigers",
+         "time": "5:07pm",
+         "location": "AT&T Park"
+      },
+      {
+         "date": "10/27/2012",
+         "opponent": "Tigers",
+         "time": "5:07pm",
+         "location": "Comerica Park"
+      },
+      {
+         "date": "10/28/2012",
+         "opponent": "Tigers",
+         "time": "5:07pm",
+         "location": "Comerica Park"
+      },
+      {
+         "date": "10/29/2012",
+         "opponent": "Tigers",
+         "time": "5:07pm",
+         "location": "Comerica Park"
+}
     ] 
 }
