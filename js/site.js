@@ -50,6 +50,7 @@ $(document).ready(function(){
         
         if (todaysGame) {
             $(".fill-in").text("YES");
+            /*
             $("#game .summary").text("Giants play the " + todaysGame.opponent);
             $("#game .location").text(todaysGame.location);
             $("#game .tstart").text(todaysGame.time);
@@ -64,6 +65,7 @@ $(document).ready(function(){
                 $("#yesno .homeaway").text("Away");
                 $("#yesno").css("border-color", "#000");
              }
+             */
             $("#game").show();
         }
         else {
