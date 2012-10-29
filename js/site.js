@@ -68,6 +68,7 @@ $(document).ready(function(){
         }
         else {
           $(".fill-in").text("NO");
+          /*
           $("#game .date").text(nextGame.date);
           $("#game .summary").text("Giants will play the " + nextGame.opponent);
           $("#game .location").text(nextGame.location);
@@ -81,6 +82,7 @@ $(document).ready(function(){
           //  $("#nextgame .location").addClass("homegame");
           //   $("body").addClass("homegame-bg");
           // }
+          */
           $("#game").show();
         }
     });                
