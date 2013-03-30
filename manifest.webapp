@@ -12,6 +12,7 @@
     "url": "http://dailycavalier.com"  
   },
   "installs_allowed_from": [  
+    "https://marketplace.firefox.com",
     "https://marketplace.mozilla.org",
     "https://apps-preview.mozilla.org"  
   ],  
