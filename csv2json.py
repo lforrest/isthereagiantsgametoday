@@ -23,12 +23,12 @@ next(raw_schedule)
 
 # "date": "4/6/2012"        row[0]
 # "opponent": "D-backs"     row[3]
-# "time": "4:10pm"          row[2]
+# "time": "4:10pm"          row[1]
 # "location":"Chase Field"  row[4]
 
 for row in raw_schedule:
     # Remove the space and make "pm" lowercase
-    time = ''.join(c.lower() for c in row[2] if not c.isspace())
+    time = ''.join(c.lower() for c in row[1] if not c.isspace())
 
     # Trim the subject description down to the opponent name
     opponent = row[3]
