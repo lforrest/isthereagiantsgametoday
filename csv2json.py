@@ -27,6 +27,9 @@ next(raw_schedule)
 # "location":"Chase Field"  row[4]
 
 for row in raw_schedule:
+    # CSV uses 2-digit years; we want 4 digits in the JSON.
+    date = ''.join([row[0][:6], '20', row[0][-2:]])
+    
     # Remove the space and make "pm" lowercase
     time = ''.join(c.lower() for c in row[1] if not c.isspace())
     
@@ -38,7 +41,7 @@ for row in raw_schedule:
     opponent = row[3]
     opponent = opponent.replace('at', '').replace('Giants', '').strip()
 
-    json_data = { "date": row[0],
+    json_data = { "date": date,
                   "opponent": opponent,
                   "time": time,
                   "location": row[4] }
