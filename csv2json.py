@@ -15,6 +15,9 @@ destination_json = argv[2]  # "test.json"
 raw_schedule = csv.reader(open(source_csv, 'r'), delimiter=',')
 schedule = []
 
+# Skip header row
+next(raw_schedule)
+
 # This CSV has 17 fields for each game, but we only want the following
 # four fields, which will look like this:
 
