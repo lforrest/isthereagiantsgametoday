@@ -29,6 +29,7 @@ next(raw_schedule)
 for row in raw_schedule:
     # Remove the space and make "pm" lowercase
     time = ''.join(c.lower() for c in row[1] if not c.isspace())
+    
     # Remove leading zeroes from times, such as 02:00pm
     if int(time[0]) == 0:
         time = time[1:]
