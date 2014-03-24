@@ -37,10 +37,11 @@ $(document).ready(function(){
             // Uncomment for debugging 
             console.log("Today: " + today + " - Looking at game: " + nextGameDate);
 
-          if (!nextGame && isDateLaterThan(nextGameDate, today)){
+            console.log("testing ", today.getDate(), "against", nextGameDate.getMonth(), "/", nextGameDate.getDate());
+/*          if (!nextGame && isDateLaterThan(nextGameDate, today)){
             nextGame = game;
             return false; // break the loop
-          }
+          }*/
           
             if(today.getYear() == nextGameDate.getYear() && today.getMonth() == nextGameDate.getMonth() && today.getDate() == nextGameDate.getDate()) {
               todaysGame = game;
@@ -48,8 +49,13 @@ $(document).ready(function(){
             }            
         });
         
-        if (todaysGame) {
-            $(".fill-in").text("YES");
+        if (todaysGame && todaysGame.location == "AT&T Park") {
+            if (todaysGame.time == "7:15pm")
+                $(".fill-in").text("YES");
+            else if(todaysGame.time == "6:05pm")
+                $(".fill-in").text("EARLY-ISH");
+            else
+                $(".fill-in").text("EARLY");
             $("#game .summary").text("Giants play the " + todaysGame.opponent);
             $("#game .location").text(todaysGame.location);
             $("#game .tstart").text(todaysGame.time);
@@ -57,7 +63,7 @@ $(document).ready(function(){
             $("#game abbr").attr('title', ISODateString(nextGameDate));
             if (todaysGame.location == "AT&T Park") {
                 $("body").addClass("home");
-                $("#yesno .homeaway").text("At home");
+                $("#yesno .homeaway").text("");
              }
              else {
                 $("body").addClass("away");
@@ -67,21 +73,23 @@ $(document).ready(function(){
             $("#game").show();
         }
         else {
-          $(".fill-in").text("NO");
-          $("#game .date").text(nextGame.date);
-          $("#game .summary").text("Giants will play the " + nextGame.opponent);
+          $(".fill-in").text("NO?");
+          //$("#game .date").text(nextGame.date);
+          $("#game .summary").text("No game, but no guarantees...");
           $("#game .location").text(nextGame.location);
           
           // Format next game date as day of the week
           var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
           var nextGameDay = weekday[nextGameDate.getDay()];
-          $("#game .day").text("on " + nextGameDay);
-          $("#game .tstart").text(nextGame.time);
+          $("#game .day").text("");
+          $("#game .tstart").text("");
           // if (nextGame.location == "AT&T Park") {
           //  $("#nextgame .location").addClass("homegame");
           //   $("body").addClass("homegame-bg");
           // }
           $("#game").show();
+          $("#attext").hide();
+          $(".dtstart .location").hide();
         }
     });                
 });    

@@ -1,12 +1,16 @@
-# Is there a Giants game today?
+# Is there a Giants game today that will cause Caltrain to suck?
 
 ## Getting the code
 
 To get a local copy of the current code, clone it using git:
 
-    $ git clone git://github.com/lforrest/isthereagiantsgametoday.git isthereagiantsgametoday
+    $ git clone git://github.com/edanaher/willcaltrainsucktoday.git
 
-    $ cd isthereagiantsgametoday
+    $ cd willcaltrainsucktoday
+
+You may also want to look at the upstram project, github.com/lforrest/isthereagiantsgametoday
+
+I'm too lazy to change the below text.
 
 ## Running the code
 
@@ -16,7 +20,7 @@ option + command + J
 
 If you get this error:
 
-XMLHttpRequest cannot load file:/// ... giants2012schedule.json. Origin null is not allowed by Access-Control-Allow-Origin.
+XMLHttpRequest cannot load file:/// ... giants2014schedule.json. Origin null is not allowed by Access-Control-Allow-Origin.
 
 It's because you're trying to open the page without a web server running. To test your changes locally, you will need to start up Apache. If you're on OS X, you probably already have it preinstalled. You can also try MAMP.
 

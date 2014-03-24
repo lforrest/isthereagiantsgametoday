@@ -2,19 +2,41 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta name="description" content="Is there a Giants game today?" />
-        <meta name="keywords" content="giants, san francisco, san francisco giants, sfgiants, schedule, mlb, baseball, major league baseball" />
-        <meta property="og:title" content="Is there a Giants game today?" />
-        <meta property="og:image" content="http://isthereagiantsgametoday.com/img/icon-128.png" />        
-        <meta property="og:url" content="http://isthereagiantsgametoday.com" />        
+        <meta name="description" content="Will Caltrain suck today?" />
+        <meta name="keywords" content="giants, san francisco, san francisco giants, sfgiants, schedule, mlb, baseball, major league baseball, caltrain" />
+        <meta property="og:title" content="Will Caltrain suck today?" />
+        <meta property="og:image" content="http://willcaltrainsucktoday.com/img/icon-128.png" />        
+        <meta property="og:url" content="http://willcaltrainsucktoday.com/" />        
         <meta property="og:type" content="website" />        
         
-        <title>Is there a Giants game today?</title>
+        <title>Will Caltrain suck today?</title>
         <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css' />
         <link href='css/site.css' rel='stylesheet' type='text/css' />
+        <!--meta charset="utf-8">
+        <title></title>
+        <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+            body { margin: auto; font-family: Helvetica, Arial, sans-serif;
+              line-height:1.3; text-align:center; width:60%; margin:0 auto;}
+            #isthere { margin-top: 5%; font-size: 50px; }
+            #yesno { margin-bottom: 2em; border-top:1px solid #D2612F;
+              border-bottom:1px solid #D2612F; padding-bottom:30px;}
+            #game { font-size: 50px; }
+            #footer { margin: 30px; }
+            
+            a:link, a:visited { text-decoration: none; color: #D2612F; }
+            a:hover { border-bottom: 2px solid black ; }
+            a#counter:hover { border: 0; text-decoration: underline; }
+            
+            .fill-in { font-family: 'Permanent Marker', arial, serif; font-size: 150px; }
+            .homeaway { font-weight: bold; font-size: 50px; }
+            .home { background: #000000; color: #D2612F; }
+            .away { background: #FFFFFF; color: #CC8888; }
+            .nogame { background: #FFFFFF; color: #CC2222; }
+        </style-->
     </head>
     <body>
-            <h1 id="isthere">Is there a Giants game today?</h1>
+            <h1 id="isthere">Will Caltrain suck today?</h1>
             <div id="yesno">
                 <span class="fill-in">...</span>
                 <br />
@@ -29,7 +51,7 @@
                 <span class="dt-start dtstart">
                     <abbr class="value"></abbr>
                         <span class="tstart value"></span>
-                        at <span class="p-location location"></span>
+                        <span id="attext">at </span><span class="p-location location"></span>
                 </span>
                 <span class="dt-end dtend">
                     <span class="tend value"></span>
@@ -41,6 +63,8 @@
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>        
         <script src="js/site.js" type="text/javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+        
     
         <!--Google Analytics Script-->
         <script type="text/javascript">
