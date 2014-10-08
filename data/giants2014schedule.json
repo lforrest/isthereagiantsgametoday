@@ -1203,10 +1203,41 @@
 			"time": "6:00pm"
 		},
 		{
-			"date": "10/09/2014",
-			"location": "Nationals Park",
-			"opponent": "Nationals",
-			"time": "2:00pm"
+			"date": "10/11/2014",
+			"location": "Busch Stadium",
+			"opponent": "Cardinals",
+			"time": "5:00pm"
+		},
+		{
+			"date": "10/12/2014",
+			"location": "Busch Stadium",
+			"opponent": "Cardinals",
+			"time": "TBD"
+		},		{
+			"date": "10/14/2014",
+			"location": "AT&T Park",
+			"opponent": "Cardinals",
+			"time": "TBD"
+		},		{
+			"date": "10/15/2014",
+			"location": "AT&T Park",
+			"opponent": "Cardinals",
+			"time": "TBD"
+		},		{
+			"date": "10/16/2014",
+			"location": "AT&T Park",
+			"opponent": "Cardinals",
+			"time": "TBD"
+		},		{
+			"date": "10/18/2014",
+			"location": "Busch Stadium",
+			"opponent": "Cardinals",
+			"time": "TBD"
+		},		{
+			"date": "10/19/2014",
+			"location": "Busch Stadium",
+			"opponent": "Cardinals",
+			"time": "TBD"
 		}
 	]
 }
