@@ -1213,31 +1213,66 @@
 			"location": "Busch Stadium",
 			"opponent": "Cardinals",
 			"time": "TBD"
-		},		{
+		},
+		{
 			"date": "10/14/2014",
 			"location": "AT&T Park",
 			"opponent": "Cardinals",
 			"time": "TBD"
-		},		{
+		},	
+		{
 			"date": "10/15/2014",
 			"location": "AT&T Park",
 			"opponent": "Cardinals",
 			"time": "TBD"
-		},		{
+		},	
+		{
 			"date": "10/16/2014",
 			"location": "AT&T Park",
 			"opponent": "Cardinals",
-			"time": "TBD"
-		},		{
-			"date": "10/18/2014",
-			"location": "Busch Stadium",
-			"opponent": "Cardinals",
-			"time": "TBD"
-		},		{
-			"date": "10/19/2014",
-			"location": "Busch Stadium",
-			"opponent": "Cardinals",
-			"time": "TBD"
+			"time": "5:00pm"
+		},	
+		{
+			"date": "10/21/2014",
+			"location": "Surprise Stadium",
+			"opponent": "Royals",
+			"time": "5:00pm"
+		},
+		{
+			"date": "10/22/2014",
+			"location": "Surprise Stadium",
+			"opponent": "Royals",
+			"time": "5:00pm"
+		},
+		{
+			"date": "10/24/2014",
+			"location": "AT&T Park",
+			"opponent": "Royals",
+			"time": "5:00pm"
+		},
+		{
+			"date": "10/25/2014",
+			"location": "AT&T Park",
+			"opponent": "Royals",
+			"time": "5:00pm"
+		},
+		{
+			"date": "10/26/2014",
+			"location": "AT&T Park",
+			"opponent": "Royals",
+			"time": "5:00pm"
+		},
+		{
+			"date": "10/28/2014",
+			"location": "Surprise Stadium",
+			"opponent": "Royals",
+			"time": "5:00pm"
+		},
+		{
+			"date": "10/28/2014",
+			"location": "Surprise Stadium",
+			"opponent": "Royals",
+			"time": "5:00pm"
 		}
 	]
 }
