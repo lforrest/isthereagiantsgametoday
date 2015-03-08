@@ -48,7 +48,7 @@ function make_y_url(_url) {
 }
 
 $(document).ready(function(){
-    var url = 'data/giants2014schedule.json';
+    var url = 'data/giants2015schedule.json';
 
     var today = new Date();
     var nextGame = null;
@@ -86,22 +86,22 @@ $(document).ready(function(){
         if (todaysGame) {
             if (curr_month < 10) {
               if (curr_date<10) {
-                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2012/month_0" +
+                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2015/month_0" +
                 curr_month + "/day_0" + curr_date + "/" + todaysGame.url + "/linescore.json";
               }
               else {
-                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2012/month_0" +
+                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2015/month_0" +
                 curr_month + "/day_" + curr_date + "/" + todaysGame.url + "/linescore.json";
               }
             }
             else {
               if (curr_date<10)
               {
-                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2012/month_" +
+                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2015/month_" +
                 curr_month + "/day_0" + curr_date + "/" + todaysGame.url + "/linescore.json";
               }
               else {
-                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2012/month_" +
+                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2015/month_" +
                 curr_month + "/day_" + curr_date + "/" + todaysGame.url + "/linescore.json";
               }
             }
