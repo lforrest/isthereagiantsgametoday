@@ -11,9 +11,9 @@ function ISODateString(d){
 }
 
 function populatescore(_json) {
-    $("#game .awayteam").append(_json.query.results.json.data.game.away_team_name);
-    $("#game .hometeam").append(_json.query.results.json.data.game.home_team_name);
-    $.each(_json.query.results.json.data.game.linescore, function(i, inning) {
+    $("#game .awayteam").append(_json.data.game.away_team_name);
+    $("#game .hometeam").append(_json.data.game.home_team_name);
+    $.each(_json.data.game.linescore, function(i, inning) {
         $("#game .awayscore .score" + (i + 1)).append(inning.away_inning_runs);
         $("#game .homescore .score" + (i + 1)).append(inning.home_inning_runs);
         if (i>8) {
@@ -23,20 +23,20 @@ function populatescore(_json) {
         }
     });
     $("#game .boxheader").append("<td class='inning'>F</td>");
-    $("#game .awayscore").append("<td class='awayruns'>" + _json.query.results.json.data.game.away_team_runs + "</td>");
-    $("#game .homescore").append("<td class='homeruns'>" + _json.query.results.json.data.game.home_team_runs + "</td>");
+    $("#game .awayscore").append("<td class='awayruns'>" + _json.data.game.away_team_runs + "</td>");
+    $("#game .homescore").append("<td class='homeruns'>" + _json.data.game.home_team_runs + "</td>");
 
-    if (_json.query.results.json.data.game.venue == "AT&T Park") {
+    if (_json.data.game.venue === "AT&T Park") {
         $("#game .homeruns").addClass("giants");
         $("#game .awayruns").addClass("opponent");
         $("#game .hometeam").text("Giants");
-        $("#game .awayteam").text(_json.query.results.json.data.game.away_team_name);
+        $("#game .awayteam").text(_json.data.game.away_team_name);
     }
      else {
         $("#game .homeruns").addClass("opponent");
         $("#game .awayruns").addClass("giants");
         $("#game .awayteam").text("Giants");
-        $("#game .hometeam").text(_json.query.results.json.data.game.home_team_name);
+        $("#game .hometeam").text(_json.data.game.home_team_name);
     }
 }
 
