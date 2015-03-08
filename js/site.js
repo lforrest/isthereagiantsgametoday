@@ -38,6 +38,7 @@ function populatescore(_json) {
       $("#game .awayteam").text("Giants");
       $("#game .hometeam").text(_json.data.game.home_team_name);
   }
+  $('.boxscore').show();
 }
 
 function make_y_url(_url) {

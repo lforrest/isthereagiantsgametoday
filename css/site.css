@@ -17,7 +17,7 @@ a:hover { border-bottom: 2px solid black ; }
 .homeaway { font-weight: bold; font-size: 50px; }
 .home { background: #000000; color: #D2612F; }
 .away { background: #FFFFFF; color: #000000; }
-.boxscore {font-size: 16px; width: 500px; margin: 30px auto 10px auto;}
+.boxscore {font-size: 16px; width: 500px; margin: 30px auto 10px auto; display: none;}
 .boxscore table {
   border: 1px solid #666;
 /*  width: 480px;*/
