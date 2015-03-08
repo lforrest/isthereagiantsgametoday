@@ -69,7 +69,8 @@ $(document).ready(function(){
       nextGameDate = new Date(game.date);
       if (!nextGame && isDateLaterThan(nextGameDate, today)) {
         nextGame = game;
-        return false;            }
+        return false;
+      }
       if (today.getYear() == nextGameDate.getYear() && today.getMonth() == nextGameDate.getMonth() && today.getDate() == nextGameDate.getDate()) {
         todaysGame = game;
         return false;
