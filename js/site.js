@@ -49,24 +49,17 @@ function make_y_url(_url) {
 
 $(document).ready(function(){
     var url = 'data/giants2015schedule.json';
-
     var today = new Date();
     var nextGame = null;
     var todaysGame = null;
-    var linescore_url_dyn = "";
-    var y_url = "";
+    var linescore_url_dyn = '';
+    var linescore_url_root = 'http://gd2.mlb.com/components/game/mlb/year_2015/';
+    var y_url = '';
 
     // Format date as MM/DD/YY
     var curr_date = today.getDate();
     var curr_month = today.getMonth() + 1;
     var curr_year = today.getFullYear();
-    // var dateString = curr_month + "/" + curr_date + "/" + curr_year;
-
-    // Create datepicker
-    // $("#datecheck").html('Checking <input id="datepicker" type="text">');
-	// $( "#datepicker" ).datepicker();
-
-    // $(".datepicker").datepicker.("setDate", dateString);
 
     // Check for game today
     $.getJSON(url,function(data){
@@ -83,48 +76,63 @@ $(document).ready(function(){
             }
         });
 
+        function getLinescoreLink(gridLink) {
+          var giantsLinescoreURL = gridLink.split('grid.json')[0];
+          $.getJSON(gridLink, function findGiantsScoreLinkFromGames(json) {
+          })
+          .done(function getLinscoreFromLink(json) {
+            $.each(json.data.games.game, function searchForGiantsGame(i, game) {
+              if (game.away_team_name === 'Giants' || game.home_team_name === 'Giants') {
+                giantsLinescoreURL = giantsLinescoreURL + 'gid_' + game.id.replace(/[\/-]/g,"_") + '/linescore.json';
+                return false;
+              }
+            });
+
+            $.getJSON(giantsLinescoreURL, function(json){
+            })
+            .done(function (json) {
+              populatescore(json);
+            });
+          });
+        }
+
         if (todaysGame) {
-            if (curr_month < 10) {
-              if (curr_date<10) {
-                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2015/month_0" +
-                curr_month + "/day_0" + curr_date + "/" + todaysGame.url + "/linescore.json";
-              }
-              else {
-                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2015/month_0" +
-                curr_month + "/day_" + curr_date + "/" + todaysGame.url + "/linescore.json";
-              }
+          var gridLink;
+          if (curr_month < 10) {
+            gridLink = linescore_url_root + 'month_0';
+
+            if (curr_date < 10) {
+              gridLink = gridLink + curr_month + "/day_0" + curr_date + "/" + 'grid.json';
             }
             else {
-              if (curr_date<10)
-              {
-                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2015/month_" +
-                curr_month + "/day_0" + curr_date + "/" + todaysGame.url + "/linescore.json";
-              }
-              else {
-                linescore_url_dyn = "http://gd2.mlb.com/components/game/mlb/year_2015/month_" +
-                curr_month + "/day_" + curr_date + "/" + todaysGame.url + "/linescore.json";
-              }
+              gridLink = gridLink + curr_month + "/day_" + curr_date + "/" + 'grid.json';
             }
+          }
+          else {
+            if (curr_date < 10)
+            {
+              gridLink = gridLink + curr_month + "/day_0" + curr_date + "/" + 'grid.json';
+            }
+            else {
+              gridLink = gridLink + curr_month + "/day_" + curr_date + "/" + 'grid.json';
+            }
+          }
+          getLinescoreLink(gridLink);
         }
-        y_url = make_y_url(linescore_url_dyn);
-        $.getJSON(y_url, function(json){
-            populatescore(json);
-        });
     });
 
     // Create datepicker
     // $("#datecheck").html('Checking <input id="datepicker" type="text">');
     // $("#datepicker").datepicker();
-
     // $(".datepicker").datepicker.("setDate", dateString);
+    // Check for game today      
 
-    // Check for game today               
     $.getJSON(url, function(json){
         var nextGameDate;
         $.each(json.games,function(i,game){
             nextGameDate = new Date(game.date);
             // Uncomment for debugging 
-            console.log("Today: " + today + " - Looking at game: " + nextGameDate);
+            // console.log("Today: " + today + " - Looking at game: " + nextGameDate);
 
           if (!nextGame && isDateLaterThan(nextGameDate, today)){
             nextGame = game;
@@ -135,6 +143,7 @@ $(document).ready(function(){
               return false; // break the loop
             }
         });
+
         if (todaysGame) {
             $(".fill-in").text("YES");
             $("#game .summary").text("Giants play the " + todaysGame.opponent);
@@ -162,7 +171,6 @@ $(document).ready(function(){
           // Formate next game date as day of the week
           var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
           var nextGameDay = weekday[nextGameDate.getDay()];
-          // console.log("nextGameDate: " + nextGameDate);
           // Format next game date as day of the week
 
           $("#game .day").text("on " + nextGameDay);
