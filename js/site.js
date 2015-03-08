@@ -93,7 +93,9 @@ $(document).ready(function(){
         $.getJSON(giantsLinescoreURL, function(json){
         })
         .done(function (json) {
-          populatescore(json);
+          if (json.data.game.status !== 'Preview') {
+            populatescore(json);
+          }
         });
       });
     }
