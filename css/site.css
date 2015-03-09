@@ -29,8 +29,8 @@ a:hover { border-bottom: 2px solid black ; }
   padding-left: 5px;
 }
 .boxscore .inning {color: #666;}
-.boxscore .giants {color: #D2612F;}
-.boxscore .opponent {color: #AAA;}
+.boxscore .giants {color: #D2612F; background: #e5e5e5;}
+.boxscore .opponent {color: #000; background: #e5e5e5;}
 a:hover { border-bottom: 2px solid #000; }
 #counter:hover { border: 0; text-decoration: underline; }
 

@@ -22,21 +22,22 @@ function populatescore(_json) {
           $("#game .homescore").append("<td class='score" + (i+1) + "'>" + inning.home_inning_runs + "</td>");
       }
   });
-  $("#game .boxheader").append("<td class='inning'>F</td>");
+  if (_json.data.game.status === 'Final') {
+    $("#game .boxheader").append("<td class='inning'>F</td>");
+  }
+  else {
+    $("#game .boxheader").append("<td class='inning'>R</td>");
+  }
   $("#game .awayscore").append("<td class='awayruns'>" + _json.data.game.away_team_runs + "</td>");
   $("#game .homescore").append("<td class='homeruns'>" + _json.data.game.home_team_runs + "</td>");
 
-  if (_json.data.game.venue === "AT&T Park") {
+  if (_json.data.game.home_team_name === 'Giants') {
       $("#game .homeruns").addClass("giants");
       $("#game .awayruns").addClass("opponent");
-      $("#game .hometeam").text("Giants");
-      $("#game .awayteam").text(_json.data.game.away_team_name);
   }
    else {
       $("#game .homeruns").addClass("opponent");
       $("#game .awayruns").addClass("giants");
-      $("#game .awayteam").text("Giants");
-      $("#game .hometeam").text(_json.data.game.home_team_name);
   }
   $('.boxscore').show();
 }
