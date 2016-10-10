@@ -961,6 +961,24 @@
       "location": "AT&T Park",
       "opponent": "Dodgers",
       "time": "12:05pm"
+    },
+    {
+      "date": "10/10/2016",
+      "location": "AT&T Park",
+      "opponent": "Cubs",
+      "time": "6:30pm"
+    },
+    {
+      "date": "10/11/2016",
+      "location": "AT&T Park",
+      "opponent": "Cubs",
+      "time": "5:30pm"
+    },
+    {
+      "date": "10/13/2016",
+      "location": "Away",
+      "opponent": "Dodgers",
+      "time": "1:05pm"
     }
   ]
 }
