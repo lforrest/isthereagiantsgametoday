@@ -1,0 +1,1044 @@
+{
+    "games": [
+        {
+            "date": "03/22/2017", 
+            "location": "Maryvale Baseball Park - Phoenix", 
+            "opponent": "Brewers", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "03/23/2017", 
+            "location": "Scottsdale Stadium - Scottsdale", 
+            "opponent": "Mariners", 
+            "time": "6:05pm"
+        }, 
+        {
+            "date": "03/24/2017", 
+            "location": "Salt River Fields at Talking Stick - Scottsdale", 
+            "opponent": "Rockies", 
+            "time": "1:10pm"
+        }, 
+        {
+            "date": "03/25/2017", 
+            "location": "Scottsdale Stadium - Scottsdale", 
+            "opponent": "Padres", 
+            "time": "3:05pm"
+        }, 
+        {
+            "date": "03/26/2017", 
+            "location": "Camelback Ranch - Glendale", 
+            "opponent": "White Sox", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "03/27/2017", 
+            "location": "Scottsdale Stadium - Scottsdale", 
+            "opponent": "Reds", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "03/28/2017", 
+            "location": "Sloan Park - Mesa", 
+            "opponent": "Cubs", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "03/30/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Athletics", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "03/31/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Athletics", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "04/01/2017", 
+            "location": "Oakland Coliseum - Oakland", 
+            "opponent": "Athletics", 
+            "time": "12:05pm"
+        }, 
+        {
+            "date": "04/02/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "1:10pm"
+        }, 
+        {
+            "date": "04/04/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "6:40pm"
+        }, 
+        {
+            "date": "04/05/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "6:40pm"
+        }, 
+        {
+            "date": "04/06/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "6:40pm"
+        }, 
+        {
+            "date": "04/07/2017", 
+            "location": "Petco Park - San Diego", 
+            "opponent": "Padres", 
+            "time": "3:40pm"
+        }, 
+        {
+            "date": "04/08/2017", 
+            "location": "Petco Park - San Diego", 
+            "opponent": "Padres", 
+            "time": "5:40pm"
+        }, 
+        {
+            "date": "04/09/2017", 
+            "location": "Petco Park - San Diego", 
+            "opponent": "Padres", 
+            "time": "1:40pm"
+        }, 
+        {
+            "date": "04/10/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "D-backs", 
+            "time": "1:35pm"
+        }, 
+        {
+            "date": "04/11/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "D-backs", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "04/12/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "D-backs", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "04/13/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Rockies", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "04/14/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Rockies", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "04/15/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Rockies", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "04/16/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Rockies", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "04/18/2017", 
+            "location": "Kauffman Stadium - Kansas City", 
+            "opponent": "Royals", 
+            "time": "5:15pm"
+        }, 
+        {
+            "date": "04/19/2017", 
+            "location": "Kauffman Stadium - Kansas City", 
+            "opponent": "Royals", 
+            "time": "5:15pm"
+        }, 
+        {
+            "date": "04/21/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "5:40pm"
+        }, 
+        {
+            "date": "04/22/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "5:10pm"
+        }, 
+        {
+            "date": "04/23/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "12:10pm"
+        }, 
+        {
+            "date": "04/24/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "04/25/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "04/26/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "04/27/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "12:45pm"
+        }, 
+        {
+            "date": "04/28/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "04/29/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "6:05pm"
+        }, 
+        {
+            "date": "04/30/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "05/01/2017", 
+            "location": "Dodger Stadium - Los Angeles", 
+            "opponent": "Dodgers", 
+            "time": "7:10pm"
+        }, 
+        {
+            "date": "05/02/2017", 
+            "location": "Dodger Stadium - Los Angeles", 
+            "opponent": "Dodgers", 
+            "time": "7:10pm"
+        }, 
+        {
+            "date": "05/03/2017", 
+            "location": "Dodger Stadium - Los Angeles", 
+            "opponent": "Dodgers", 
+            "time": "7:10pm"
+        }, 
+        {
+            "date": "05/05/2017", 
+            "location": "Great American Ball Park - Cincinnati", 
+            "opponent": "Reds", 
+            "time": "3:40pm"
+        }, 
+        {
+            "date": "05/06/2017", 
+            "location": "Great American Ball Park - Cincinnati", 
+            "opponent": "Reds", 
+            "time": "4:10pm"
+        }, 
+        {
+            "date": "05/07/2017", 
+            "location": "Great American Ball Park - Cincinnati", 
+            "opponent": "Reds", 
+            "time": "1:10pm"
+        }, 
+        {
+            "date": "05/08/2017", 
+            "location": "Citi Field - Flushing", 
+            "opponent": "Mets", 
+            "time": "4:10pm"
+        }, 
+        {
+            "date": "05/09/2017", 
+            "location": "Citi Field - Flushing", 
+            "opponent": "Mets", 
+            "time": "4:10pm"
+        }, 
+        {
+            "date": "05/10/2017", 
+            "location": "Citi Field - Flushing", 
+            "opponent": "Mets", 
+            "time": "10:10am"
+        }, 
+        {
+            "date": "05/11/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Reds", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "05/12/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Reds", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "05/13/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Reds", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "05/14/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Reds", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "05/15/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "05/16/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "05/17/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "12:45pm"
+        }, 
+        {
+            "date": "05/19/2017", 
+            "location": "Busch Stadium - St. Louis", 
+            "opponent": "Cardinals", 
+            "time": "5:15pm"
+        }, 
+        {
+            "date": "05/20/2017", 
+            "location": "Busch Stadium - St. Louis", 
+            "opponent": "Cardinals", 
+            "time": "4:15pm"
+        }, 
+        {
+            "date": "05/21/2017", 
+            "location": "Busch Stadium - St. Louis", 
+            "opponent": "Cardinals", 
+            "time": "11:15am"
+        }, 
+        {
+            "date": "05/22/2017", 
+            "location": "Wrigley Field - Chicago", 
+            "opponent": "Cubs", 
+            "time": "5:05pm"
+        }, 
+        {
+            "date": "05/23/2017", 
+            "location": "Wrigley Field - Chicago", 
+            "opponent": "Cubs", 
+            "time": "4:05pm"
+        }, 
+        {
+            "date": "05/24/2017", 
+            "location": "Wrigley Field - Chicago", 
+            "opponent": "Cubs", 
+            "time": "5:05pm"
+        }, 
+        {
+            "date": "05/25/2017", 
+            "location": "Wrigley Field - Chicago", 
+            "opponent": "Cubs", 
+            "time": "11:20am"
+        }, 
+        {
+            "date": "05/26/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Braves", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "05/27/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Braves", 
+            "time": "7:05pm"
+        }, 
+        {
+            "date": "05/28/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Braves", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "05/29/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Nionals", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "05/30/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Nionals", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "05/31/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Nionals", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "06/02/2017", 
+            "location": "Citizens Bank Park - Philadelphia", 
+            "opponent": "Phillies", 
+            "time": "4:05pm"
+        }, 
+        {
+            "date": "06/03/2017", 
+            "location": "Citizens Bank Park - Philadelphia", 
+            "opponent": "Phillies", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "06/04/2017", 
+            "location": "Citizens Bank Park - Philadelphia", 
+            "opponent": "Phillies", 
+            "time": "10:35am"
+        }, 
+        {
+            "date": "06/05/2017", 
+            "location": "Miller Park - Milwaukee", 
+            "opponent": "Brewers", 
+            "time": "4:40pm"
+        }, 
+        {
+            "date": "06/06/2017", 
+            "location": "Miller Park - Milwaukee", 
+            "opponent": "Brewers", 
+            "time": "4:40pm"
+        }, 
+        {
+            "date": "06/07/2017", 
+            "location": "Miller Park - Milwaukee", 
+            "opponent": "Brewers", 
+            "time": "5:10pm"
+        }, 
+        {
+            "date": "06/08/2017", 
+            "location": "Miller Park - Milwaukee", 
+            "opponent": "Brewers", 
+            "time": "11:10am"
+        }, 
+        {
+            "date": "06/09/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Twins", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "06/10/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Twins", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "06/11/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Twins", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "06/13/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Royals", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "06/14/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Royals", 
+            "time": "12:45pm"
+        }, 
+        {
+            "date": "06/15/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "5:40pm"
+        }, 
+        {
+            "date": "06/16/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "5:40pm"
+        }, 
+        {
+            "date": "06/17/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "12:10pm"
+        }, 
+        {
+            "date": "06/18/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "12:10pm"
+        }, 
+        {
+            "date": "06/19/2017", 
+            "location": "SunTrust Park - Atlanta", 
+            "opponent": "Braves", 
+            "time": "4:35pm"
+        }, 
+        {
+            "date": "06/20/2017", 
+            "location": "SunTrust Park - Atlanta", 
+            "opponent": "Braves", 
+            "time": "4:35pm"
+        }, 
+        {
+            "date": "06/21/2017", 
+            "location": "SunTrust Park - Atlanta", 
+            "opponent": "Braves", 
+            "time": "4:35pm"
+        }, 
+        {
+            "date": "06/22/2017", 
+            "location": "SunTrust Park - Atlanta", 
+            "opponent": "Braves", 
+            "time": "4:35pm"
+        }, 
+        {
+            "date": "06/23/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Mets", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "06/24/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Mets", 
+            "time": "4:15pm"
+        }, 
+        {
+            "date": "06/25/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Mets", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "06/26/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Rockies", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "06/27/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Rockies", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "06/28/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Rockies", 
+            "time": "12:45pm"
+        }, 
+        {
+            "date": "06/30/2017", 
+            "location": "PNC Park - Pittsburgh", 
+            "opponent": "Pires", 
+            "time": "4:05pm"
+        }, 
+        {
+            "date": "07/01/2017", 
+            "location": "PNC Park - Pittsburgh", 
+            "opponent": "Pires", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "07/02/2017", 
+            "location": "PNC Park - Pittsburgh", 
+            "opponent": "Pires", 
+            "time": "10:35am"
+        }, 
+        {
+            "date": "07/04/2017", 
+            "location": "Comerica Park - Detroit", 
+            "opponent": "Tigers", 
+            "time": "10:10am"
+        }, 
+        {
+            "date": "07/05/2017", 
+            "location": "Comerica Park - Detroit", 
+            "opponent": "Tigers", 
+            "time": "4:10pm"
+        }, 
+        {
+            "date": "07/06/2017", 
+            "location": "Comerica Park - Detroit", 
+            "opponent": "Tigers", 
+            "time": "10:10am"
+        }, 
+        {
+            "date": "07/07/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Marlins", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "07/08/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Marlins", 
+            "time": "7:05pm"
+        }, 
+        {
+            "date": "07/09/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Marlins", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "07/11/2017", 
+            "location": "Marlins Park - Miami", 
+            "opponent": "AL All-Stars  NL All-Stars", 
+            "time": "8:00pm"
+        }, 
+        {
+            "date": "07/14/2017", 
+            "location": "Petco Park - San Diego", 
+            "opponent": "Padres", 
+            "time": "7:10pm"
+        }, 
+        {
+            "date": "07/15/2017", 
+            "location": "Petco Park - San Diego", 
+            "opponent": "Padres", 
+            "time": "5:40pm"
+        }, 
+        {
+            "date": "07/16/2017", 
+            "location": "Petco Park - San Diego", 
+            "opponent": "Padres", 
+            "time": "1:40pm"
+        }, 
+        {
+            "date": "07/17/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Indians", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "07/18/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Indians", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "07/19/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Indians", 
+            "time": "12:45pm"
+        }, 
+        {
+            "date": "07/20/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "07/21/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "07/22/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "07/23/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "07/24/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Pires", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "07/25/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Pires", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "07/26/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Pires", 
+            "time": "12:45pm"
+        }, 
+        {
+            "date": "07/28/2017", 
+            "location": "Dodger Stadium - Los Angeles", 
+            "opponent": "Dodgers", 
+            "time": "7:10pm"
+        }, 
+        {
+            "date": "07/29/2017", 
+            "location": "Dodger Stadium - Los Angeles", 
+            "opponent": "Dodgers", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "07/30/2017", 
+            "location": "Dodger Stadium - Los Angeles", 
+            "opponent": "Dodgers", 
+            "time": "1:10pm"
+        }, 
+        {
+            "date": "07/31/2017", 
+            "location": "Oakland Coliseum - Oakland", 
+            "opponent": "Athletics", 
+            "time": "7:05pm"
+        }, 
+        {
+            "date": "08/01/2017", 
+            "location": "Oakland Coliseum - Oakland", 
+            "opponent": "Athletics", 
+            "time": "7:05pm"
+        }, 
+        {
+            "date": "08/02/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Athletics", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "08/03/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Athletics", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "08/04/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "D-backs", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "08/05/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "D-backs", 
+            "time": "6:05pm"
+        }, 
+        {
+            "date": "08/06/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "D-backs", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "08/07/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Cubs", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "08/08/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Cubs", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "08/09/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Cubs", 
+            "time": "12:45pm"
+        }, 
+        {
+            "date": "08/11/2017", 
+            "location": "Nationals Park - Washington", 
+            "opponent": "Nionals", 
+            "time": "4:05pm"
+        }, 
+        {
+            "date": "08/12/2017", 
+            "location": "Nationals Park - Washington", 
+            "opponent": "Nionals", 
+            "time": "4:05pm"
+        }, 
+        {
+            "date": "08/13/2017", 
+            "location": "Nationals Park - Washington", 
+            "opponent": "Nionals", 
+            "time": "10:35am"
+        }, 
+        {
+            "date": "08/14/2017", 
+            "location": "Marlins Park - Miami", 
+            "opponent": "Marlins", 
+            "time": "4:10pm"
+        }, 
+        {
+            "date": "08/15/2017", 
+            "location": "Marlins Park - Miami", 
+            "opponent": "Marlins", 
+            "time": "4:10pm"
+        }, 
+        {
+            "date": "08/16/2017", 
+            "location": "Marlins Park - Miami", 
+            "opponent": "Marlins", 
+            "time": "10:10am"
+        }, 
+        {
+            "date": "08/17/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Phillies", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "08/18/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Phillies", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "08/19/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Phillies", 
+            "time": "6:05pm"
+        }, 
+        {
+            "date": "08/20/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Phillies", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "08/21/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Brewers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "08/22/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Brewers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "08/23/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Brewers", 
+            "time": "12:45pm"
+        }, 
+        {
+            "date": "08/25/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "6:40pm"
+        }, 
+        {
+            "date": "08/26/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "5:10pm"
+        }, 
+        {
+            "date": "08/27/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "1:10pm"
+        }, 
+        {
+            "date": "08/28/2017", 
+            "location": "Petco Park - San Diego", 
+            "opponent": "Padres", 
+            "time": "7:10pm"
+        }, 
+        {
+            "date": "08/29/2017", 
+            "location": "Petco Park - San Diego", 
+            "opponent": "Padres", 
+            "time": "7:10pm"
+        }, 
+        {
+            "date": "08/30/2017", 
+            "location": "Petco Park - San Diego", 
+            "opponent": "Padres", 
+            "time": "6:10pm"
+        }, 
+        {
+            "date": "08/31/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Cardinals", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "09/01/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Cardinals", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "09/02/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Cardinals", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "09/03/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Cardinals", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "09/04/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "12:10pm"
+        }, 
+        {
+            "date": "09/05/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "5:40pm"
+        }, 
+        {
+            "date": "09/06/2017", 
+            "location": "Coors Field - Denver", 
+            "opponent": "Rockies", 
+            "time": "5:40pm"
+        }, 
+        {
+            "date": "09/08/2017", 
+            "location": "Guaranteed Rate Field - Chicago", 
+            "opponent": "White Sox", 
+            "time": "5:10pm"
+        }, 
+        {
+            "date": "09/09/2017", 
+            "location": "Guaranteed Rate Field - Chicago", 
+            "opponent": "White Sox", 
+            "time": "4:10pm"
+        }, 
+        {
+            "date": "09/10/2017", 
+            "location": "Guaranteed Rate Field - Chicago", 
+            "opponent": "White Sox", 
+            "time": "11:10am"
+        }, 
+        {
+            "date": "09/11/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "09/12/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "09/13/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Dodgers", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "09/15/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "D-backs", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "09/16/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "D-backs", 
+            "time": "6:05pm"
+        }, 
+        {
+            "date": "09/17/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "D-backs", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "09/19/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Rockies", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "09/20/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Rockies", 
+            "time": "12:45pm"
+        }, 
+        {
+            "date": "09/22/2017", 
+            "location": "Dodger Stadium - Los Angeles", 
+            "opponent": "Dodgers", 
+            "time": "7:10pm"
+        }, 
+        {
+            "date": "09/23/2017", 
+            "location": "Dodger Stadium - Los Angeles", 
+            "opponent": "Dodgers", 
+            "time": "6:10pm"
+        }, 
+        {
+            "date": "09/24/2017", 
+            "location": "Dodger Stadium - Los Angeles", 
+            "opponent": "Dodgers", 
+            "time": "1:10pm"
+        }, 
+        {
+            "date": "09/25/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "6:40pm"
+        }, 
+        {
+            "date": "09/26/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "6:40pm"
+        }, 
+        {
+            "date": "09/27/2017", 
+            "location": "Chase Field - Phoenix", 
+            "opponent": "D-backs", 
+            "time": "12:40pm"
+        }, 
+        {
+            "date": "09/29/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "7:15pm"
+        }, 
+        {
+            "date": "09/30/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "1:05pm"
+        }, 
+        {
+            "date": "10/01/2017", 
+            "location": "AT&T Park - San Francisco", 
+            "opponent": "Padres", 
+            "time": "12:05pm"
+        }
+    ], 
+    "link": "http://www.isthereagiantsgametoday.com/", 
+    "title": "Giants Game Schedule"
+}
