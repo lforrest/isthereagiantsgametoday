@@ -1,0 +1,162 @@
+{
+  "title": "Giants Game Schedule",
+  "link": "http://www.isthereagiantsgametoday.com/",
+  "games": [
+    {
+      "date": "04/02/2017",
+      "location": "Chase Field",
+      "opponent": "Diamondbacks",
+      "time": "1:10pm"
+    },
+    {
+      "date": "04/04/2017",
+      "location": "Chase Field",
+      "opponent": "Diamondbacks",
+      "time": "6:40pm"
+    },
+    {
+      "date": "04/05/2017",
+      "location": "Chase Field",
+      "opponent": "Diamondbacks",
+      "time": "6:40pm"
+    },
+    {
+      "date": "04/06/2017",
+      "location": "Chase Field",
+      "opponent": "Diamondbacks",
+      "time": "6:40pm"
+    },
+    {
+      "date": "04/7/2017",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "3:40pm"
+    },
+    {
+      "date": "04/8/2017",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "5:40pm"
+    },
+    {
+      "date": "04/9/2017",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "1:40pm"
+    },
+    {
+      "date": "04/10/2017",
+      "location": "AT&T Park",
+      "opponent": "Diamond Backs",
+      "time": "1:35pm"
+    },
+    {
+      "date": "04/11/2017",
+      "location": "AT&T Park",
+      "opponent": "Diamond Backs",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/12/2017",
+      "location": "AT&T Park",
+      "opponent": "Diamond Backs",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/13/2016",
+      "location": "AT&T Park",
+      "opponent": "Rockies",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/14/2016",
+      "location": "AT&T Park",
+      "opponent": "Rockies",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/15/2016",
+      "location": "AT&T Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/16/2016",
+      "location": "AT&T Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/18/2017",
+      "location": "Kauffman Stadium",
+      "opponent": "Royals",
+      "time": "5:15pm"
+    },
+    {
+      "date": "04/19/2017",
+      "location": "Kauffman Stadium",
+      "opponent": "Royals",
+      "time": "5:15pm"
+    },
+    {
+      "date": "04/21/2017",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:40pm"
+    },
+    {
+      "date": "04/22/2017",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:10pm"
+    },
+    {
+      "date": "04/23/2017",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "12:10pm"
+    },
+    {
+      "date": "04/24/2017",
+      "location": "AT&T Park",
+      "opponent": "Dodgers",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/25/2017",
+      "location": "AT&T Park",
+      "opponent": "Dodgers",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/26/2017",
+      "location": "AT&T Park",
+      "opponent": "Dodgers",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/27/2017",
+      "location": "AT&T Park",
+      "opponent": "Dodgers",
+      "time": "12:45pm"
+    },
+    {
+      "date": "04/28/2017",
+      "location": "AT&T Park",
+      "opponent": "Padres",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/29/2017",
+      "location": "AT&T Park",
+      "opponent": "Padres",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/30/2017",
+      "location": "AT&T Park",
+      "opponent": "Padres",
+      "time": "7:15pm"
+    }
+  ]
+}
