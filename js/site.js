@@ -58,7 +58,7 @@ $(document).ready(function(){
             $("#game .tstart").text(todaysGame.time);
 
             $("#game abbr").attr('title', ISODateString(nextGameDate));
-            if (todaysGame.location == "AT&T Park") {
+            if (todaysGame.location.includes("AT&T Park")) {
                 $("body").addClass("home");
                 $("#yesno .homeaway").text("At home");
              }
