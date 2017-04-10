@@ -44,9 +44,12 @@ $(document).ready(function(){
 
             if(today.getYear() == nextGameDate.getYear() && today.getMonth() == nextGameDate.getMonth() && today.getDate() == nextGameDate.getDate()) {
               todaysGame = game;
+              nextGame = json.games[i+1];
               return false; // break the loop
             }
         });
+
+        var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 
         if (todaysGame) {
             $(".fill-in").text("YES");
@@ -55,7 +58,7 @@ $(document).ready(function(){
             $("#game .tstart").text(todaysGame.time);
 
             $("#game abbr").attr('title', ISODateString(nextGameDate));
-            if (todaysGame.location == "AT&T Park") {
+            if (todaysGame.location.includes("AT&T Park")) {
                 $("body").addClass("home");
                 $("#yesno .homeaway").text("At home");
              }
@@ -65,6 +68,14 @@ $(document).ready(function(){
                 $("#yesno").css("border-color", "#000");
              }
             $("#game").show();
+
+	    //add small text for next game
+            $("#next .next-location").text(nextGame.location);
+            $("#next .nstart").text(nextGame.time);
+            nextGameDate = new Date(nextGame.date);
+            $("#next .next-day").text(weekday[nextGameDate.getDay()] + ", " + (nextGameDate.getMonth()+1) + "/" + nextGameDate.getDate());
+            $("#next").show();
+            
         }
         else {
           $(".fill-in").text("NO");
@@ -73,7 +84,6 @@ $(document).ready(function(){
           $("#game .location").text(nextGame.location);
 
           // Format next game date as day of the week
-          var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
           var nextGameDay = weekday[nextGameDate.getDay()];
           $("#game .day").text("on " + nextGameDay);
           $("#game .tstart").text(nextGame.time);

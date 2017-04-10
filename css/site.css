@@ -2,6 +2,7 @@ body {font-family: Helvetica, Arial, sans-serif; line-height:1.3; text-align:cen
 #isthere { margin-top: 5%; font-size: 55px; }
 #yesno { margin-bottom: 1em; border-top:1px solid #D2612F; border-bottom:1px solid #D2612F; padding-bottom:10px;}
 #game { font-size: 50px; }
+#next { font-size: 20px; }
 #footer { margin: 30px; font-size: 20px; }
 
 a:link, a:visited { text-decoration: none; color: #D2612F; }
@@ -9,6 +10,7 @@ a:hover { border-bottom: 2px solid #000; }
 a#counter:hover { border: 0; text-decoration: underline; }
 
 #game { display: none; }
+#next { display: none; }
 .fill-in { font-family: 'Permanent Marker', arial, sans-serif; font-size: 150px; }
 .homeaway { font-weight: bold; font-size: 50px; }
 .home { background: #000; color: #D2612F; }
@@ -23,6 +25,7 @@ a#counter:hover { border: 0; text-decoration: underline; }
     body { width: 80%; }
     #isthere { font-size: 60px; line-height: 1.0; }
     #game { font-size: 50px; }
+    #next { font-size: 20px; }
     #footer { font-size: 20px; }
     .fill-in { font-size: 100px; }
     .homeaway { font-size: 34px; }
@@ -32,6 +35,7 @@ a#counter:hover { border: 0; text-decoration: underline; }
     body { width: 80%; }
     #isthere { font-size: 34px; }
     #game { font-size: 50px; }
+    #next { font-size: 20px; }
     #footer { font-size: 16px; }
     .fill-in { font-size: 75px; }
     .homeaway { font-size: 34px; }
@@ -41,6 +45,7 @@ a#counter:hover { border: 0; text-decoration: underline; }
     body { width: 80%; }
     #isthere { font-size: 40px; }
     #game { font-size: 24px; }
+    #next { font-sise: 10px; }
     #footer { font-size: 14px; }
     .fill-in { font-size: 70px; }
     .homeaway { font-size: 34px; }
@@ -50,6 +55,7 @@ a#counter:hover { border: 0; text-decoration: underline; }
     body { width: 80%; }
     #isthere { font-size: 40px; }
     #game { font-size: 24px; }
+    #next { font-sise: 10px; }
     #footer { font-size: 14px; }
     .fill-in { font-size: 70px; }
     .homeaway { font-size: 34px; }
