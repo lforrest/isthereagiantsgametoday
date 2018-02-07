@@ -1,3 +1,5 @@
+# Download schedule CSV at https://www.mlb.com/giants/fans/downloadable-schedule
+
 require 'byebug'
 require 'csv'
 require 'json'
