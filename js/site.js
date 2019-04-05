@@ -58,7 +58,7 @@ $(document).ready(function(){
             $("#game .tstart").text(todaysGame.time);
 
             $("#game abbr").attr('title', ISODateString(nextGameDate));
-            if (todaysGame.location.includes("AT&T Park")) {
+            if (todaysGame.location.includes("Oracle Park")) {
                 $("body").addClass("home");
                 $("#yesno .homeaway").text("At home");
              }
@@ -87,7 +87,7 @@ $(document).ready(function(){
           var nextGameDay = weekday[nextGameDate.getDay()];
           $("#game .day").text("on " + nextGameDay);
           $("#game .tstart").text(nextGame.time);
-          // if (nextGame.location == "AT&T Park") {
+          // if (nextGame.location == "Oracle Park") {
           //  $("#nextgame .location").addClass("homegame");
           //   $("body").addClass("homegame-bg");
           // }
