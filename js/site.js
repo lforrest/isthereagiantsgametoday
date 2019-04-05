@@ -1,3 +1,5 @@
+var ballparkName = 'Oracle Park';
+
 function isDateLaterThan(a, b) {
   return a > b;
 }
@@ -35,7 +37,7 @@ $(document).ready(function(){
             nextGameDate = new Date(game.date);
 
             // Uncomment for debugging
-            console.log("Today: " + today + " - Looking at game: " + nextGameDate);
+            //console.log("Today: " + today + " - Looking at game: " + nextGameDate);
 
           if (!nextGame && isDateLaterThan(nextGameDate, today)){
             nextGame = game;
@@ -58,7 +60,7 @@ $(document).ready(function(){
             $("#game .tstart").text(todaysGame.time);
 
             $("#game abbr").attr('title', ISODateString(nextGameDate));
-            if (todaysGame.location.includes("AT&T Park")) {
+            if (todaysGame.location.includes(ballparkName)) {
                 $("body").addClass("home");
                 $("#yesno .homeaway").text("At home");
              }
@@ -87,7 +89,7 @@ $(document).ready(function(){
           var nextGameDay = weekday[nextGameDate.getDay()];
           $("#game .day").text("on " + nextGameDay);
           $("#game .tstart").text(nextGame.time);
-          // if (nextGame.location == "AT&T Park") {
+          // if (nextGame.location == ballparkName) {
           //  $("#nextgame .location").addClass("homegame");
           //   $("body").addClass("homegame-bg");
           // }
