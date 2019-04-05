@@ -9,7 +9,7 @@ function ISODateString(d){
 }
 
 $(document).ready(function(){
-    var url = 'data/giants2017schedule.json';
+    var url = 'data/giants2019schedule.json';
 
     var today = new Date();
     var nextGame = null;
