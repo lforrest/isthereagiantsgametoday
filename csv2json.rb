@@ -7,17 +7,25 @@ require 'json'
 # give date year four digits instead of two
 def parse_date(row)
   raw_date = row[0]
-  Date.strptime(raw_date, '%m/%d/%y')
+  if raw_date
+    Date.strptime(raw_date, '%m/%d/%y')
+  else
+    nil
+  end
 end
 
 # format time: remove space, downcase AM/PM
 def parse_time(row)
   raw_time = row[1]
-  time = "#{raw_time[0..4]}#{raw_time[-2..-1].downcase!}"
+  if raw_time
+    time = "#{raw_time[0..4]}#{raw_time[-2..-1].downcase!}"
 
-  # remove leading 0
-  time = time[1..-1] if time[0] === '0'
-  time
+    # remove leading 0
+    time = time[1..-1] if time[0] === '0'
+    time
+  else
+    nil
+  end
 end
 
 # select opponent depending on home team
