@@ -54,7 +54,7 @@ $(document).ready(function(){
         var weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 
         if (todaysGame) {
-            $(".fill-in").text("YES");
+            $(".fill-in").text("Postponed...");
             $("#game .summary").text("Giants play the " + todaysGame.opponent);
             $("#game .location").text(todaysGame.location);
             $("#game .tstart").text(todaysGame.time);
