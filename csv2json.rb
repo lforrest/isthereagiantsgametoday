@@ -45,8 +45,8 @@ def parse_and_print(input_file_path: "data/source/#{Date.today.strftime('%Y')}Ev
   schedule = []
   CSV.foreach(input_file_path, headers: true) do |row|
 
-    # Hack alert
-    next if row[3] == 'NL All-Stars at AL All-Stars - Time TBD'
+    # Still kind of a hack alert
+    next if row[3].include?('TBD')
 
     date = parse_date(row)
     time = parse_time(row)
