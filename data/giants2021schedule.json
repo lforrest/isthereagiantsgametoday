@@ -1,0 +1,1140 @@
+{
+  "title": "Giants Game Schedule",
+  "link": "http://www.isthereagiantsgametoday.com/",
+  "games": [
+    {
+      "date": "02/28/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Angels",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/01/2021",
+      "location": "Surprise Stadium",
+      "opponent": "Rangers",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/02/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Dodgers",
+      "time": "6:05pm"
+    },
+    {
+      "date": "03/04/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "White",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/05/2021",
+      "location": "Peoria Stadium",
+      "opponent": "Padres",
+      "time": "5:40pm"
+    },
+    {
+      "date": "03/06/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Royals",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/07/2021",
+      "location": "Goodyear Ballpark",
+      "opponent": "Reds",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/08/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "D-backs",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/09/2021",
+      "location": "American Family Fields of Phoenix",
+      "opponent": "Brewers",
+      "time": "12:10pm"
+    },
+    {
+      "date": "03/10/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Cubs",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/11/2021",
+      "location": "Tempe Diablo Stadium",
+      "opponent": "Angels",
+      "time": "12:10pm"
+    },
+    {
+      "date": "03/12/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Rockies",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/13/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Indians",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/14/2021",
+      "location": "Salt River Fields at Talking Stick",
+      "opponent": "D-backs",
+      "time": "1:10pm"
+    },
+    {
+      "date": "03/15/2021",
+      "location": "Surprise Stadium",
+      "opponent": "Royals",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/16/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Rangers",
+      "time": "7:05pm"
+    },
+    {
+      "date": "03/17/2021",
+      "location": "Salt River Fields at Talking Stick",
+      "opponent": "Rockies",
+      "time": "1:10pm"
+    },
+    {
+      "date": "03/18/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Mariners",
+      "time": "7:05pm"
+    },
+    {
+      "date": "03/19/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Reds",
+      "time": "7:05pm"
+    },
+    {
+      "date": "03/21/2021",
+      "location": "Camelback Ranch",
+      "opponent": "Dodgers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/22/2021",
+      "location": "Camelback Ranch",
+      "opponent": "White",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/23/2021",
+      "location": "Goodyear Ballpark",
+      "opponent": "Indians",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/24/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Padres",
+      "time": "7:05pm"
+    },
+    {
+      "date": "03/25/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Brewers",
+      "time": "7:05pm"
+    },
+    {
+      "date": "03/26/2021",
+      "location": "Sloan Park",
+      "opponent": "Cubs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/27/2021",
+      "location": "Peoria Stadium",
+      "opponent": "Mariners",
+      "time": "6:40pm"
+    },
+    {
+      "date": "03/28/2021",
+      "location": "Scottsdale Stadium",
+      "opponent": "Athletics",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/29/2021",
+      "location": "Hohokam Stadium",
+      "opponent": "Athletics",
+      "time": "12:05pm"
+    },
+    {
+      "date": "04/01/2021",
+      "location": "T-Mobile Park",
+      "opponent": "Mariners",
+      "time": "7:10pm"
+    },
+    {
+      "date": "04/02/2021",
+      "location": "T-Mobile Park",
+      "opponent": "Mariners",
+      "time": "7:10pm"
+    },
+    {
+      "date": "04/03/2021",
+      "location": "T-Mobile Park",
+      "opponent": "Mariners",
+      "time": "6:10pm"
+    },
+    {
+      "date": "04/05/2021",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "7:10pm"
+    },
+    {
+      "date": "04/06/2021",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "7:10pm"
+    },
+    {
+      "date": "04/07/2021",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "1:10pm"
+    },
+    {
+      "date": "04/09/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:35pm"
+    },
+    {
+      "date": "04/10/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/11/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/12/2021",
+      "location": "Oracle Park",
+      "opponent": "Reds",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/13/2021",
+      "location": "Oracle Park",
+      "opponent": "Reds",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/14/2021",
+      "location": "Oracle Park",
+      "opponent": "Reds",
+      "time": "12:45pm"
+    },
+    {
+      "date": "04/16/2021",
+      "location": "loanDepot park",
+      "opponent": "Marlins",
+      "time": "4:10pm"
+    },
+    {
+      "date": "04/17/2021",
+      "location": "loanDepot park",
+      "opponent": "Marlins",
+      "time": "3:10pm"
+    },
+    {
+      "date": "04/18/2021",
+      "location": "loanDepot park",
+      "opponent": "Marlins",
+      "time": "10:10am"
+    },
+    {
+      "date": "04/19/2021",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "4:05pm"
+    },
+    {
+      "date": "04/20/2021",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "4:05pm"
+    },
+    {
+      "date": "04/21/2021",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "10:05am"
+    },
+    {
+      "date": "04/22/2021",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/23/2021",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/24/2021",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "6:05pm"
+    },
+    {
+      "date": "04/25/2021",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/26/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/27/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/28/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/30/2021",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "7:10pm"
+    },
+    {
+      "date": "05/01/2021",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "5:40pm"
+    },
+    {
+      "date": "05/02/2021",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "1:10pm"
+    },
+    {
+      "date": "05/04/2021",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "2:40pm"
+    },
+    {
+      "date": "05/05/2021",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "12:10pm"
+    },
+    {
+      "date": "05/07/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/08/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/09/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/10/2021",
+      "location": "Oracle Park",
+      "opponent": "Rangers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/11/2021",
+      "location": "Oracle Park",
+      "opponent": "Rangers",
+      "time": "12:45pm"
+    },
+    {
+      "date": "05/13/2021",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "3:35pm"
+    },
+    {
+      "date": "05/14/2021",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "3:35pm"
+    },
+    {
+      "date": "05/15/2021",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "3:35pm"
+    },
+    {
+      "date": "05/16/2021",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "10:05am"
+    },
+    {
+      "date": "05/17/2021",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "3:40pm"
+    },
+    {
+      "date": "05/18/2021",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "3:40pm"
+    },
+    {
+      "date": "05/19/2021",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "3:40pm"
+    },
+    {
+      "date": "05/20/2021",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "9:35am"
+    },
+    {
+      "date": "05/21/2021",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/22/2021",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "4:15pm"
+    },
+    {
+      "date": "05/23/2021",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/25/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "05/26/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "05/27/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "05/28/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "05/29/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "4:15pm"
+    },
+    {
+      "date": "05/30/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "1:10pm"
+    },
+    {
+      "date": "05/31/2021",
+      "location": "Oracle Park",
+      "opponent": "Angels",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/01/2021",
+      "location": "Oracle Park",
+      "opponent": "Angels",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/03/2021",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/04/2021",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/05/2021",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "4:15pm"
+    },
+    {
+      "date": "06/06/2021",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/08/2021",
+      "location": "Globe Life Field",
+      "opponent": "Rangers",
+      "time": "5:05pm"
+    },
+    {
+      "date": "06/09/2021",
+      "location": "Globe Life Field",
+      "opponent": "Rangers",
+      "time": "11:05am"
+    },
+    {
+      "date": "06/10/2021",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "4:05pm"
+    },
+    {
+      "date": "06/11/2021",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "4:05pm"
+    },
+    {
+      "date": "06/12/2021",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "4:15pm"
+    },
+    {
+      "date": "06/13/2021",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "10:05am"
+    },
+    {
+      "date": "06/14/2021",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/15/2021",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/16/2021",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/17/2021",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "12:45pm"
+    },
+    {
+      "date": "06/18/2021",
+      "location": "Oracle Park",
+      "opponent": "Phillies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/19/2021",
+      "location": "Oracle Park",
+      "opponent": "Phillies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/20/2021",
+      "location": "Oracle Park",
+      "opponent": "Phillies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/22/2021",
+      "location": "Angel Stadium",
+      "opponent": "Angels",
+      "time": "6:38pm"
+    },
+    {
+      "date": "06/23/2021",
+      "location": "Angel Stadium",
+      "opponent": "Angels",
+      "time": "1:07pm"
+    },
+    {
+      "date": "06/25/2021",
+      "location": "Oracle Park",
+      "opponent": "Athletics",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/26/2021",
+      "location": "Oracle Park",
+      "opponent": "Athletics",
+      "time": "7:05pm"
+    },
+    {
+      "date": "06/27/2021",
+      "location": "Oracle Park",
+      "opponent": "Athletics",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/28/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "06/29/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "07/01/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "07/02/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "07/03/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "7:10pm"
+    },
+    {
+      "date": "07/04/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:10pm"
+    },
+    {
+      "date": "07/05/2021",
+      "location": "Oracle Park",
+      "opponent": "Cardinals",
+      "time": "2:05pm"
+    },
+    {
+      "date": "07/06/2021",
+      "location": "Oracle Park",
+      "opponent": "Cardinals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/07/2021",
+      "location": "Oracle Park",
+      "opponent": "Cardinals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/09/2021",
+      "location": "Oracle Park",
+      "opponent": "Nationals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/10/2021",
+      "location": "Oracle Park",
+      "opponent": "Nationals",
+      "time": "1:05pm"
+    },
+    {
+      "date": "07/11/2021",
+      "location": "Oracle Park",
+      "opponent": "Nationals",
+      "time": "1:05pm"
+    },
+    {
+      "date": "07/16/2021",
+      "location": "Busch Stadium",
+      "opponent": "Cardinals",
+      "time": "5:15pm"
+    },
+    {
+      "date": "07/17/2021",
+      "location": "Busch Stadium",
+      "opponent": "Cardinals",
+      "time": "4:15pm"
+    },
+    {
+      "date": "07/18/2021",
+      "location": "Busch Stadium",
+      "opponent": "Cardinals",
+      "time": "11:15am"
+    },
+    {
+      "date": "07/19/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "07/20/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "07/21/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "07/22/2021",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "07/23/2021",
+      "location": "Oracle Park",
+      "opponent": "Pirates",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/24/2021",
+      "location": "Oracle Park",
+      "opponent": "Pirates",
+      "time": "6:05pm"
+    },
+    {
+      "date": "07/25/2021",
+      "location": "Oracle Park",
+      "opponent": "Pirates",
+      "time": "1:05pm"
+    },
+    {
+      "date": "07/27/2021",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/28/2021",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/29/2021",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "12:45pm"
+    },
+    {
+      "date": "07/30/2021",
+      "location": "Oracle Park",
+      "opponent": "Astros",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/31/2021",
+      "location": "Oracle Park",
+      "opponent": "Astros",
+      "time": "1:05pm"
+    },
+    {
+      "date": "08/01/2021",
+      "location": "Oracle Park",
+      "opponent": "Astros",
+      "time": "1:05pm"
+    },
+    {
+      "date": "08/02/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "08/03/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "08/04/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "08/05/2021",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "12:40pm"
+    },
+    {
+      "date": "08/06/2021",
+      "location": "American Family Field",
+      "opponent": "Brewers",
+      "time": "5:10pm"
+    },
+    {
+      "date": "08/07/2021",
+      "location": "American Family Field",
+      "opponent": "Brewers",
+      "time": "4:10pm"
+    },
+    {
+      "date": "08/08/2021",
+      "location": "American Family Field",
+      "opponent": "Brewers",
+      "time": "11:10am"
+    },
+    {
+      "date": "08/10/2021",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/11/2021",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/12/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/13/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/14/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "6:05pm"
+    },
+    {
+      "date": "08/15/2021",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "08/16/2021",
+      "location": "Oracle Park",
+      "opponent": "Mets",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/17/2021",
+      "location": "Oracle Park",
+      "opponent": "Mets",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/18/2021",
+      "location": "Oracle Park",
+      "opponent": "Mets",
+      "time": "12:45pm"
+    },
+    {
+      "date": "08/20/2021",
+      "location": "Oakland Coliseum",
+      "opponent": "Athletics",
+      "time": "6:40pm"
+    },
+    {
+      "date": "08/21/2021",
+      "location": "Oakland Coliseum",
+      "opponent": "Athletics",
+      "time": "1:07pm"
+    },
+    {
+      "date": "08/22/2021",
+      "location": "Oakland Coliseum",
+      "opponent": "Athletics",
+      "time": "1:07pm"
+    },
+    {
+      "date": "08/24/2021",
+      "location": "Citi Field",
+      "opponent": "Mets",
+      "time": "4:10pm"
+    },
+    {
+      "date": "08/25/2021",
+      "location": "Citi Field",
+      "opponent": "Mets",
+      "time": "4:10pm"
+    },
+    {
+      "date": "08/26/2021",
+      "location": "Citi Field",
+      "opponent": "Mets",
+      "time": "4:10pm"
+    },
+    {
+      "date": "08/27/2021",
+      "location": "Truist Park",
+      "opponent": "Braves",
+      "time": "4:20pm"
+    },
+    {
+      "date": "08/28/2021",
+      "location": "Truist Park",
+      "opponent": "Braves",
+      "time": "4:20pm"
+    },
+    {
+      "date": "08/29/2021",
+      "location": "Truist Park",
+      "opponent": "Braves",
+      "time": "10:20am"
+    },
+    {
+      "date": "08/30/2021",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/31/2021",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/01/2021",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/02/2021",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "12:45pm"
+    },
+    {
+      "date": "09/03/2021",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/04/2021",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "6:05pm"
+    },
+    {
+      "date": "09/05/2021",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "09/06/2021",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "1:10pm"
+    },
+    {
+      "date": "09/07/2021",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:40pm"
+    },
+    {
+      "date": "09/08/2021",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "12:10pm"
+    },
+    {
+      "date": "09/10/2021",
+      "location": "Wrigley Field",
+      "opponent": "Cubs",
+      "time": "11:20am"
+    },
+    {
+      "date": "09/11/2021",
+      "location": "Wrigley Field",
+      "opponent": "Cubs",
+      "time": "11:20am"
+    },
+    {
+      "date": "09/12/2021",
+      "location": "Wrigley Field",
+      "opponent": "Cubs",
+      "time": "11:20am"
+    },
+    {
+      "date": "09/13/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/14/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/15/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/16/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "12:45pm"
+    },
+    {
+      "date": "09/17/2021",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/18/2021",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "6:05pm"
+    },
+    {
+      "date": "09/19/2021",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "1:05pm"
+    },
+    {
+      "date": "09/21/2021",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "7:10pm"
+    },
+    {
+      "date": "09/22/2021",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "7:10pm"
+    },
+    {
+      "date": "09/23/2021",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "1:10pm"
+    },
+    {
+      "date": "09/24/2021",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:10pm"
+    },
+    {
+      "date": "09/25/2021",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:10pm"
+    },
+    {
+      "date": "09/26/2021",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "12:10pm"
+    },
+    {
+      "date": "09/28/2021",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/29/2021",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/30/2021",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "10/01/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "10/02/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "1:05pm"
+    },
+    {
+      "date": "10/03/2021",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "12:05pm"
+    }
+  ]
+}
