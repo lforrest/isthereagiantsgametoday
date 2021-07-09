@@ -10,15 +10,13 @@ To get a local copy of the current code, clone it using git:
 
 ## Running the code
 
-Open the JavaScript console in Google Chrome:
+1. Generate the schedule using `make build` or `python ./get_schedule.py`
+2. Start a local http server using `make serve` or `python -m SimpleHTTPServer`
+3. Point your browser to <http://localhost:8000>
 
-option + command + J
+## Cleaning up
 
-If you get this error:
-
-XMLHttpRequest cannot load file:/// ... giants2012schedule.json. Origin null is not allowed by Access-Control-Allow-Origin.
-
-It's because you're trying to open the page without a web server running. To test your changes locally, you will need to start up Apache. If you're on OS X, you probably already have it preinstalled. You can also try MAMP.
+The Makefile offers a `make clean` that will remove all json files from the data directory.
 
 ## Contributing
 
