@@ -1,0 +1,2316 @@
+{
+  "title": "Giants Game Schedule",
+  "link": "http://www.isthereagiantsgametoday.com/",
+  "games": [
+    {
+      "date": "02/24/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Cubs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "02/25/2024",
+      "location": "Surprise Stadium",
+      "opponent": "Rangers",
+      "time": "12:05pm"
+    },
+    {
+      "date": "02/26/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Angels",
+      "time": "1:05pm"
+    },
+    {
+      "date": "02/27/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Mariners",
+      "time": "1:05pm"
+    },
+    {
+      "date": "02/28/2024",
+      "location": "Hohokam Stadium",
+      "opponent": "Athletics",
+      "time": "12:05pm"
+    },
+    {
+      "date": "02/29/2024",
+      "location": "Salt River Fields at Talking Stick",
+      "opponent": "D-backs",
+      "time": "12:10pm"
+    },
+    {
+      "date": "03/01/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Rangers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/02/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Padres",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/03/2024",
+      "location": "Goodyear Ballpark",
+      "opponent": "Guardians",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/04/2024",
+      "location": "Salt River Fields at Talking Stick",
+      "opponent": "Rockies",
+      "time": "12:10pm"
+    },
+    {
+      "date": "03/05/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Brewers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/09/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Athletics",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/10/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "White",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/10/2024",
+      "location": "Peoria Stadium",
+      "opponent": "Mariners",
+      "time": "1:10pm"
+    },
+    {
+      "date": "03/11/2024",
+      "location": "Surprise Stadium",
+      "opponent": "Royals",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/12/2024",
+      "location": "Camelback Ranch",
+      "opponent": "Dodgers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/13/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Reds",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/16/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Guardians",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/16/2024",
+      "location": "Camelback Ranch",
+      "opponent": "White",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/17/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/18/2024",
+      "location": "Goodyear Ballpark",
+      "opponent": "Reds",
+      "time": "6:05pm"
+    },
+    {
+      "date": "03/19/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Royals",
+      "time": "7:05pm"
+    },
+    {
+      "date": "03/20/2024",
+      "location": "Tempe Diablo Stadium",
+      "opponent": "Angels",
+      "time": "1:10pm"
+    },
+    {
+      "date": "03/21/2024",
+      "location": "American Family Fields of Phoenix",
+      "opponent": "Brewers",
+      "time": "6:10pm"
+    },
+    {
+      "date": "03/22/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "Cubs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/22/2024",
+      "location": "Sloan Park",
+      "opponent": "Cubs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/23/2024",
+      "location": "Scottsdale Stadium",
+      "opponent": "D-backs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/24/2024",
+      "location": "Sutter Health Park",
+      "opponent": "River",
+      "time": "5:07pm"
+    },
+    {
+      "date": "03/25/2024",
+      "location": "Oakland Coliseum",
+      "opponent": "Athletics",
+      "time": "6:40pm"
+    },
+    {
+      "date": "03/26/2024",
+      "location": "Oracle Park",
+      "opponent": "Athletics",
+      "time": "5:05pm"
+    },
+    {
+      "date": "03/28/2024",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "1:10pm"
+    },
+    {
+      "date": "03/29/2024",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "6:40pm"
+    },
+    {
+      "date": "03/30/2024",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "4:15pm"
+    },
+    {
+      "date": "03/31/2024",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "1:10pm"
+    },
+    {
+      "date": "04/01/2024",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "04/02/2024",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "04/03/2024",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "04/05/2024",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "1:35pm"
+    },
+    {
+      "date": "04/06/2024",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:05pm"
+    },
+    {
+      "date": "04/07/2024",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/08/2024",
+      "location": "Oracle Park",
+      "opponent": "Nationals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/09/2024",
+      "location": "Oracle Park",
+      "opponent": "Nationals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/10/2024",
+      "location": "Oracle Park",
+      "opponent": "Nationals",
+      "time": "12:45pm"
+    },
+    {
+      "date": "04/12/2024",
+      "location": "Tropicana Field",
+      "opponent": "Rays",
+      "time": "3:50pm"
+    },
+    {
+      "date": "04/13/2024",
+      "location": "Tropicana Field",
+      "opponent": "Rays",
+      "time": "1:10pm"
+    },
+    {
+      "date": "04/14/2024",
+      "location": "Tropicana Field",
+      "opponent": "Rays",
+      "time": "10:40am"
+    },
+    {
+      "date": "04/15/2024",
+      "location": "loanDepot park",
+      "opponent": "Marlins",
+      "time": "3:40pm"
+    },
+    {
+      "date": "04/16/2024",
+      "location": "loanDepot park",
+      "opponent": "Marlins",
+      "time": "3:40pm"
+    },
+    {
+      "date": "04/17/2024",
+      "location": "loanDepot park",
+      "opponent": "Marlins",
+      "time": "9:10am"
+    },
+    {
+      "date": "04/18/2024",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/19/2024",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/20/2024",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/21/2024",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/22/2024",
+      "location": "Oracle Park",
+      "opponent": "Mets",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/23/2024",
+      "location": "Oracle Park",
+      "opponent": "Mets",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/24/2024",
+      "location": "Oracle Park",
+      "opponent": "Mets",
+      "time": "12:45pm"
+    },
+    {
+      "date": "04/26/2024",
+      "location": "Oracle Park",
+      "opponent": "Pirates",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/27/2024",
+      "location": "Oracle Park",
+      "opponent": "Pirates",
+      "time": "6:05pm"
+    },
+    {
+      "date": "04/28/2024",
+      "location": "Oracle Park",
+      "opponent": "Pirates",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/30/2024",
+      "location": "Fenway Park",
+      "opponent": "Red",
+      "time": "4:10pm"
+    },
+    {
+      "date": "05/01/2024",
+      "location": "Fenway Park",
+      "opponent": "Red",
+      "time": "4:10pm"
+    },
+    {
+      "date": "05/02/2024",
+      "location": "Fenway Park",
+      "opponent": "Red",
+      "time": "10:35am"
+    },
+    {
+      "date": "05/03/2024",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "3:40pm"
+    },
+    {
+      "date": "05/04/2024",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "3:05pm"
+    },
+    {
+      "date": "05/05/2024",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "4:10pm"
+    },
+    {
+      "date": "05/06/2024",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/07/2024",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:40pm"
+    },
+    {
+      "date": "05/08/2024",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:40pm"
+    },
+    {
+      "date": "05/09/2024",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "12:10pm"
+    },
+    {
+      "date": "05/10/2024",
+      "location": "Oracle Park",
+      "opponent": "Reds",
+      "time": "7:15pm"
+    },
+    {
+      "date": "05/11/2024",
+      "location": "Oracle Park",
+      "opponent": "Reds",
+      "time": "4:15pm"
+    },
+    {
+      "date": "05/12/2024",
+      "location": "Oracle Park",
+      "opponent": "Reds",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/13/2024",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/14/2024",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/15/2024",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/17/2024",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "7:15pm"
+    },
+    {
+      "date": "05/18/2024",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/19/2024",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/21/2024",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "3:40pm"
+    },
+    {
+      "date": "05/22/2024",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "3:40pm"
+    },
+    {
+      "date": "05/23/2024",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "9:35am"
+    },
+    {
+      "date": "05/24/2024",
+      "location": "Citi Field",
+      "opponent": "Mets",
+      "time": "4:10pm"
+    },
+    {
+      "date": "05/25/2024",
+      "location": "Citi Field",
+      "opponent": "Mets",
+      "time": "10:40am"
+    },
+    {
+      "date": "05/26/2024",
+      "location": "Citi Field",
+      "opponent": "Mets",
+      "time": "10:40am"
+    },
+    {
+      "date": "05/27/2024",
+      "location": "Oracle Park",
+      "opponent": "Phillies",
+      "time": "2:05pm"
+    },
+    {
+      "date": "05/28/2024",
+      "location": "Oracle Park",
+      "opponent": "Phillies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/29/2024",
+      "location": "Oracle Park",
+      "opponent": "Phillies",
+      "time": "12:45pm"
+    },
+    {
+      "date": "05/31/2024",
+      "location": "Oracle Park",
+      "opponent": "Yankees",
+      "time": "7:15pm"
+    },
+    {
+      "date": "06/01/2024",
+      "location": "Oracle Park",
+      "opponent": "Yankees",
+      "time": "7:05pm"
+    },
+    {
+      "date": "06/02/2024",
+      "location": "Oracle Park",
+      "opponent": "Yankees",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/03/2024",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "06/04/2024",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "06/05/2024",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "12:40pm"
+    },
+    {
+      "date": "06/07/2024",
+      "location": "Globe Life Field",
+      "opponent": "Rangers",
+      "time": "5:05pm"
+    },
+    {
+      "date": "06/08/2024",
+      "location": "Globe Life Field",
+      "opponent": "Rangers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/09/2024",
+      "location": "Globe Life Field",
+      "opponent": "Rangers",
+      "time": "10:05am"
+    },
+    {
+      "date": "06/10/2024",
+      "location": "Oracle Park",
+      "opponent": "Astros",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/11/2024",
+      "location": "Oracle Park",
+      "opponent": "Astros",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/12/2024",
+      "location": "Oracle Park",
+      "opponent": "Astros",
+      "time": "12:45pm"
+    },
+    {
+      "date": "06/14/2024",
+      "location": "Oracle Park",
+      "opponent": "Angels",
+      "time": "7:15pm"
+    },
+    {
+      "date": "06/15/2024",
+      "location": "Oracle Park",
+      "opponent": "Angels",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/16/2024",
+      "location": "Oracle Park",
+      "opponent": "Angels",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/17/2024",
+      "location": "Wrigley Field",
+      "opponent": "Cubs",
+      "time": "5:05pm"
+    },
+    {
+      "date": "06/18/2024",
+      "location": "Wrigley Field",
+      "opponent": "Cubs",
+      "time": "5:05pm"
+    },
+    {
+      "date": "06/19/2024",
+      "location": "Wrigley Field",
+      "opponent": "Cubs",
+      "time": "11:20am"
+    },
+    {
+      "date": "06/20/2024",
+      "location": "Rickwood Field",
+      "opponent": "Cardinals",
+      "time": "4:15pm"
+    },
+    {
+      "date": "06/22/2024",
+      "location": "Busch Stadium",
+      "opponent": "Cardinals",
+      "time": "11:15am"
+    },
+    {
+      "date": "06/23/2024",
+      "location": "Busch Stadium",
+      "opponent": "Cardinals",
+      "time": "11:15am"
+    },
+    {
+      "date": "06/24/2024",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/25/2024",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/26/2024",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/27/2024",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "12:45pm"
+    },
+    {
+      "date": "06/28/2024",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "7:15pm"
+    },
+    {
+      "date": "06/29/2024",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "4:15pm"
+    },
+    {
+      "date": "06/30/2024",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "07/02/2024",
+      "location": "Truist Park",
+      "opponent": "Braves",
+      "time": "4:20pm"
+    },
+    {
+      "date": "07/03/2024",
+      "location": "Truist Park",
+      "opponent": "Braves",
+      "time": "4:20pm"
+    },
+    {
+      "date": "07/04/2024",
+      "location": "Truist Park",
+      "opponent": "Braves",
+      "time": "4:20pm"
+    },
+    {
+      "date": "07/05/2024",
+      "location": "Progressive Field",
+      "opponent": "Guardians",
+      "time": "4:10pm"
+    },
+    {
+      "date": "07/06/2024",
+      "location": "Progressive Field",
+      "opponent": "Guardians",
+      "time": "1:10pm"
+    },
+    {
+      "date": "07/07/2024",
+      "location": "Progressive Field",
+      "opponent": "Guardians",
+      "time": "10:40am"
+    },
+    {
+      "date": "07/09/2024",
+      "location": "Oracle Park",
+      "opponent": "Blue",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/10/2024",
+      "location": "Oracle Park",
+      "opponent": "Blue",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/11/2024",
+      "location": "Oracle Park",
+      "opponent": "Blue",
+      "time": "12:45pm"
+    },
+    {
+      "date": "07/12/2024",
+      "location": "Oracle Park",
+      "opponent": "Twins",
+      "time": "7:15pm"
+    },
+    {
+      "date": "07/13/2024",
+      "location": "Oracle Park",
+      "opponent": "Twins",
+      "time": "4:15pm"
+    },
+    {
+      "date": "07/14/2024",
+      "location": "Oracle Park",
+      "opponent": "Twins",
+      "time": "1:05pm"
+    },
+    {
+      "date": "07/19/2024",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:40pm"
+    },
+    {
+      "date": "07/20/2024",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:10pm"
+    },
+    {
+      "date": "07/21/2024",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "12:10pm"
+    },
+    {
+      "date": "07/22/2024",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "07/23/2024",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "07/24/2024",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "07/25/2024",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "1:10pm"
+    },
+    {
+      "date": "07/26/2024",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "7:15pm"
+    },
+    {
+      "date": "07/27/2024",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "4:05pm"
+    },
+    {
+      "date": "07/28/2024",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "07/30/2024",
+      "location": "Oracle Park",
+      "opponent": "Athletics",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/31/2024",
+      "location": "Oracle Park",
+      "opponent": "Athletics",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/02/2024",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "4:10pm"
+    },
+    {
+      "date": "08/03/2024",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "4:15pm"
+    },
+    {
+      "date": "08/04/2024",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "9:05am"
+    },
+    {
+      "date": "08/05/2024",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "3:45pm"
+    },
+    {
+      "date": "08/06/2024",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "3:45pm"
+    },
+    {
+      "date": "08/07/2024",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "3:45pm"
+    },
+    {
+      "date": "08/08/2024",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "9:05am"
+    },
+    {
+      "date": "08/09/2024",
+      "location": "Oracle Park",
+      "opponent": "Tigers",
+      "time": "7:15pm"
+    },
+    {
+      "date": "08/10/2024",
+      "location": "Oracle Park",
+      "opponent": "Tigers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "08/11/2024",
+      "location": "Oracle Park",
+      "opponent": "Tigers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "08/12/2024",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/13/2024",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/14/2024",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/15/2024",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "12:45pm"
+    },
+    {
+      "date": "08/17/2024",
+      "location": "Oakland Coliseum",
+      "opponent": "Athletics",
+      "time": "4:07pm"
+    },
+    {
+      "date": "08/18/2024",
+      "location": "Oakland Coliseum",
+      "opponent": "Athletics",
+      "time": "1:07pm"
+    },
+    {
+      "date": "08/19/2024",
+      "location": "Oracle Park",
+      "opponent": "White",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/20/2024",
+      "location": "Oracle Park",
+      "opponent": "White",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/21/2024",
+      "location": "Oracle Park",
+      "opponent": "White",
+      "time": "12:45pm"
+    },
+    {
+      "date": "08/23/2024",
+      "location": "T-Mobile Park",
+      "opponent": "Mariners",
+      "time": "7:10pm"
+    },
+    {
+      "date": "08/24/2024",
+      "location": "T-Mobile Park",
+      "opponent": "Mariners",
+      "time": "1:10pm"
+    },
+    {
+      "date": "08/25/2024",
+      "location": "T-Mobile Park",
+      "opponent": "Mariners",
+      "time": "1:10pm"
+    },
+    {
+      "date": "08/27/2024",
+      "location": "American Family Field",
+      "opponent": "Brewers",
+      "time": "5:10pm"
+    },
+    {
+      "date": "08/28/2024",
+      "location": "American Family Field",
+      "opponent": "Brewers",
+      "time": "5:10pm"
+    },
+    {
+      "date": "08/29/2024",
+      "location": "American Family Field",
+      "opponent": "Brewers",
+      "time": "11:10am"
+    },
+    {
+      "date": "08/30/2024",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "7:15pm"
+    },
+    {
+      "date": "08/31/2024",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "6:05pm"
+    },
+    {
+      "date": "09/01/2024",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "1:05pm"
+    },
+    {
+      "date": "09/03/2024",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/04/2024",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/05/2024",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "12:45pm"
+    },
+    {
+      "date": "09/06/2024",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "6:40pm"
+    },
+    {
+      "date": "09/07/2024",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "5:40pm"
+    },
+    {
+      "date": "09/08/2024",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "1:10pm"
+    },
+    {
+      "date": "09/10/2024",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/11/2024",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/12/2024",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/13/2024",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "7:15pm"
+    },
+    {
+      "date": "09/14/2024",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:05pm"
+    },
+    {
+      "date": "09/15/2024",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "1:05pm"
+    },
+    {
+      "date": "09/17/2024",
+      "location": "Oriole Park at Camden Yards",
+      "opponent": "Orioles",
+      "time": "3:35pm"
+    },
+    {
+      "date": "09/18/2024",
+      "location": "Oriole Park at Camden Yards",
+      "opponent": "Orioles",
+      "time": "3:35pm"
+    },
+    {
+      "date": "09/19/2024",
+      "location": "Oriole Park at Camden Yards",
+      "opponent": "Orioles",
+      "time": "10:05am"
+    },
+    {
+      "date": "09/20/2024",
+      "location": "Kauffman Stadium",
+      "opponent": "Royals",
+      "time": "5:10pm"
+    },
+    {
+      "date": "09/21/2024",
+      "location": "Kauffman Stadium",
+      "opponent": "Royals",
+      "time": "2:10pm"
+    },
+    {
+      "date": "09/22/2024",
+      "location": "Kauffman Stadium",
+      "opponent": "Royals",
+      "time": "11:10am"
+    },
+    {
+      "date": "09/23/2024",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "09/24/2024",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "09/25/2024",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "09/27/2024",
+      "location": "Oracle Park",
+      "opponent": "Cardinals",
+      "time": "7:15pm"
+    },
+    {
+      "date": "09/28/2024",
+      "location": "Oracle Park",
+      "opponent": "Cardinals",
+      "time": "1:05pm"
+    },
+    {
+      "date": "09/29/2024",
+      "location": "Oracle Park",
+      "opponent": "Cardinals",
+      "time": "12:05pm"
+    },
+    {
+      "date": "02/22/2025",
+      "location": "Surprise Stadium",
+      "opponent": "Rangers",
+      "time": "12:05pm"
+    },
+    {
+      "date": "02/23/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Reds",
+      "time": "1:05pm"
+    },
+    {
+      "date": "02/24/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "02/24/2025",
+      "location": "Tempe Diablo Stadium",
+      "opponent": "Angels",
+      "time": "12:10pm"
+    },
+    {
+      "date": "02/25/2025",
+      "location": "Hohokam Stadium",
+      "opponent": "Athletics",
+      "time": "12:05pm"
+    },
+    {
+      "date": "02/26/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Cubs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "02/27/2025",
+      "location": "Peoria Stadium",
+      "opponent": "Mariners",
+      "time": "12:10pm"
+    },
+    {
+      "date": "02/28/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Brewers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/01/2025",
+      "location": "Camelback Ranch",
+      "opponent": "Dodgers",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/02/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Angels",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/04/2025",
+      "location": "Peoria Stadium",
+      "opponent": "Padres",
+      "time": "12:10pm"
+    },
+    {
+      "date": "03/05/2025",
+      "location": "Salt River Fields at Talking Stick",
+      "opponent": "D-backs",
+      "time": "12:10pm"
+    },
+    {
+      "date": "03/06/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "White",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/08/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Royals",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/09/2025",
+      "location": "Sloan Park",
+      "opponent": "Cubs",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/09/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Padres",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/10/2025",
+      "location": "Salt River Fields at Talking Stick",
+      "opponent": "Rockies",
+      "time": "1:10pm"
+    },
+    {
+      "date": "03/11/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Athletics",
+      "time": "4:05pm"
+    },
+    {
+      "date": "03/12/2025",
+      "location": "Goodyear Ballpark",
+      "opponent": "Guardians",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/13/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Rangers",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/14/2025",
+      "location": "American Family Fields of Phoenix",
+      "opponent": "Brewers",
+      "time": "1:10pm"
+    },
+    {
+      "date": "03/15/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Mariners",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/16/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Athletics",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/17/2025",
+      "location": "Camelback Ranch",
+      "opponent": "White",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/18/2025",
+      "location": "Salt River Fields at Talking Stick",
+      "opponent": "Rockies",
+      "time": "6:40pm"
+    },
+    {
+      "date": "03/18/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Padres",
+      "time": "6:05pm"
+    },
+    {
+      "date": "03/19/2025",
+      "location": "Surprise Stadium",
+      "opponent": "Royals",
+      "time": "6:05pm"
+    },
+    {
+      "date": "03/21/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "Guardians",
+      "time": "1:05pm"
+    },
+    {
+      "date": "03/22/2025",
+      "location": "Scottsdale Stadium",
+      "opponent": "D-backs",
+      "time": "12:05pm"
+    },
+    {
+      "date": "03/23/2025",
+      "location": "Sutter Health Park",
+      "opponent": "River",
+      "time": "5:07pm"
+    },
+    {
+      "date": "03/24/2025",
+      "location": "Oracle Park",
+      "opponent": "Tigers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "03/25/2025",
+      "location": "Oracle Park",
+      "opponent": "Tigers",
+      "time": "5:05pm"
+    },
+    {
+      "date": "03/27/2025",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "1:10pm"
+    },
+    {
+      "date": "03/29/2025",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "1:10pm"
+    },
+    {
+      "date": "03/30/2025",
+      "location": "Great American Ball Park",
+      "opponent": "Reds",
+      "time": "10:40am"
+    },
+    {
+      "date": "03/31/2025",
+      "location": "Minute Maid Park",
+      "opponent": "Astros",
+      "time": "5:10pm"
+    },
+    {
+      "date": "04/01/2025",
+      "location": "Minute Maid Park",
+      "opponent": "Astros",
+      "time": "5:10pm"
+    },
+    {
+      "date": "04/02/2025",
+      "location": "Minute Maid Park",
+      "opponent": "Astros",
+      "time": "1:10pm"
+    },
+    {
+      "date": "04/04/2025",
+      "location": "Oracle Park",
+      "opponent": "Mariners",
+      "time": "1:35pm"
+    },
+    {
+      "date": "04/05/2025",
+      "location": "Oracle Park",
+      "opponent": "Mariners",
+      "time": "6:05pm"
+    },
+    {
+      "date": "04/06/2025",
+      "location": "Oracle Park",
+      "opponent": "Mariners",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/07/2025",
+      "location": "Oracle Park",
+      "opponent": "Reds",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/08/2025",
+      "location": "Oracle Park",
+      "opponent": "Reds",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/09/2025",
+      "location": "Oracle Park",
+      "opponent": "Reds",
+      "time": "12:45pm"
+    },
+    {
+      "date": "04/11/2025",
+      "location": "Yankee Stadium",
+      "opponent": "Yankees",
+      "time": "4:05pm"
+    },
+    {
+      "date": "04/12/2025",
+      "location": "Yankee Stadium",
+      "opponent": "Yankees",
+      "time": "12:05pm"
+    },
+    {
+      "date": "04/13/2025",
+      "location": "Yankee Stadium",
+      "opponent": "Yankees",
+      "time": "10:35am"
+    },
+    {
+      "date": "04/14/2025",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "3:45pm"
+    },
+    {
+      "date": "04/15/2025",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "3:45pm"
+    },
+    {
+      "date": "04/16/2025",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "3:45pm"
+    },
+    {
+      "date": "04/17/2025",
+      "location": "Citizens Bank Park",
+      "opponent": "Phillies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/18/2025",
+      "location": "Angel Stadium",
+      "opponent": "Angels",
+      "time": "6:38pm"
+    },
+    {
+      "date": "04/19/2025",
+      "location": "Angel Stadium",
+      "opponent": "Angels",
+      "time": "6:38pm"
+    },
+    {
+      "date": "04/20/2025",
+      "location": "Angel Stadium",
+      "opponent": "Angels",
+      "time": "1:07pm"
+    },
+    {
+      "date": "04/21/2025",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/22/2025",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/23/2025",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "6:45pm"
+    },
+    {
+      "date": "04/24/2025",
+      "location": "Oracle Park",
+      "opponent": "Brewers",
+      "time": "12:45pm"
+    },
+    {
+      "date": "04/25/2025",
+      "location": "Oracle Park",
+      "opponent": "Rangers",
+      "time": "7:15pm"
+    },
+    {
+      "date": "04/26/2025",
+      "location": "Oracle Park",
+      "opponent": "Rangers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/27/2025",
+      "location": "Oracle Park",
+      "opponent": "Rangers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "04/29/2025",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "6:40pm"
+    },
+    {
+      "date": "04/30/2025",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "1:10pm"
+    },
+    {
+      "date": "05/01/2025",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/02/2025",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "7:15pm"
+    },
+    {
+      "date": "05/03/2025",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/04/2025",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/05/2025",
+      "location": "Wrigley Field",
+      "opponent": "Cubs",
+      "time": "4:40pm"
+    },
+    {
+      "date": "05/06/2025",
+      "location": "Wrigley Field",
+      "opponent": "Cubs",
+      "time": "4:40pm"
+    },
+    {
+      "date": "05/07/2025",
+      "location": "Wrigley Field",
+      "opponent": "Cubs",
+      "time": "11:20am"
+    },
+    {
+      "date": "05/09/2025",
+      "location": "Target Field",
+      "opponent": "Twins",
+      "time": "5:10pm"
+    },
+    {
+      "date": "05/10/2025",
+      "location": "Target Field",
+      "opponent": "Twins",
+      "time": "4:15pm"
+    },
+    {
+      "date": "05/11/2025",
+      "location": "Target Field",
+      "opponent": "Twins",
+      "time": "11:10am"
+    },
+    {
+      "date": "05/12/2025",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/13/2025",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/14/2025",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "12:45pm"
+    },
+    {
+      "date": "05/16/2025",
+      "location": "Oracle Park",
+      "opponent": "Athletics",
+      "time": "7:15pm"
+    },
+    {
+      "date": "05/17/2025",
+      "location": "Oracle Park",
+      "opponent": "Athletics",
+      "time": "6:05pm"
+    },
+    {
+      "date": "05/18/2025",
+      "location": "Oracle Park",
+      "opponent": "Athletics",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/19/2025",
+      "location": "Oracle Park",
+      "opponent": "Royals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/20/2025",
+      "location": "Oracle Park",
+      "opponent": "Royals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "05/21/2025",
+      "location": "Oracle Park",
+      "opponent": "Royals",
+      "time": "12:45pm"
+    },
+    {
+      "date": "05/23/2025",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "3:45pm"
+    },
+    {
+      "date": "05/24/2025",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "1:05pm"
+    },
+    {
+      "date": "05/25/2025",
+      "location": "Nationals Park",
+      "opponent": "Nationals",
+      "time": "10:35am"
+    },
+    {
+      "date": "05/26/2025",
+      "location": "Comerica Park",
+      "opponent": "Tigers",
+      "time": "10:10am"
+    },
+    {
+      "date": "05/27/2025",
+      "location": "Comerica Park",
+      "opponent": "Tigers",
+      "time": "3:40pm"
+    },
+    {
+      "date": "05/28/2025",
+      "location": "Comerica Park",
+      "opponent": "Tigers",
+      "time": "10:10am"
+    },
+    {
+      "date": "05/30/2025",
+      "location": "loanDepot park",
+      "opponent": "Marlins",
+      "time": "4:10pm"
+    },
+    {
+      "date": "05/31/2025",
+      "location": "loanDepot park",
+      "opponent": "Marlins",
+      "time": "1:10pm"
+    },
+    {
+      "date": "06/01/2025",
+      "location": "loanDepot park",
+      "opponent": "Marlins",
+      "time": "10:40am"
+    },
+    {
+      "date": "06/02/2025",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/03/2025",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/04/2025",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/05/2025",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "12:45pm"
+    },
+    {
+      "date": "06/06/2025",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "7:15pm"
+    },
+    {
+      "date": "06/07/2025",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/08/2025",
+      "location": "Oracle Park",
+      "opponent": "Braves",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/10/2025",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:40pm"
+    },
+    {
+      "date": "06/11/2025",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:40pm"
+    },
+    {
+      "date": "06/12/2025",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "12:10pm"
+    },
+    {
+      "date": "06/13/2025",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "06/14/2025",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "06/15/2025",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "1:10pm"
+    },
+    {
+      "date": "06/17/2025",
+      "location": "Oracle Park",
+      "opponent": "Guardians",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/18/2025",
+      "location": "Oracle Park",
+      "opponent": "Guardians",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/19/2025",
+      "location": "Oracle Park",
+      "opponent": "Guardians",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/20/2025",
+      "location": "Oracle Park",
+      "opponent": "Red",
+      "time": "7:15pm"
+    },
+    {
+      "date": "06/21/2025",
+      "location": "Oracle Park",
+      "opponent": "Red",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/22/2025",
+      "location": "Oracle Park",
+      "opponent": "Red",
+      "time": "1:05pm"
+    },
+    {
+      "date": "06/24/2025",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/25/2025",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "6:45pm"
+    },
+    {
+      "date": "06/26/2025",
+      "location": "Oracle Park",
+      "opponent": "Marlins",
+      "time": "12:45pm"
+    },
+    {
+      "date": "06/27/2025",
+      "location": "Guaranteed Rate Field",
+      "opponent": "White",
+      "time": "4:40pm"
+    },
+    {
+      "date": "06/28/2025",
+      "location": "Guaranteed Rate Field",
+      "opponent": "White",
+      "time": "1:10pm"
+    },
+    {
+      "date": "06/29/2025",
+      "location": "Guaranteed Rate Field",
+      "opponent": "White",
+      "time": "11:10am"
+    },
+    {
+      "date": "06/30/2025",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "07/01/2025",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "07/02/2025",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "07/03/2025",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "07/04/2025",
+      "location": "Sutter Health Park",
+      "opponent": "Athletics",
+      "time": "7:05pm"
+    },
+    {
+      "date": "07/05/2025",
+      "location": "Sutter Health Park",
+      "opponent": "Athletics",
+      "time": "7:05pm"
+    },
+    {
+      "date": "07/06/2025",
+      "location": "Sutter Health Park",
+      "opponent": "Athletics",
+      "time": "7:05pm"
+    },
+    {
+      "date": "07/07/2025",
+      "location": "Oracle Park",
+      "opponent": "Phillies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/08/2025",
+      "location": "Oracle Park",
+      "opponent": "Phillies",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/09/2025",
+      "location": "Oracle Park",
+      "opponent": "Phillies",
+      "time": "12:45pm"
+    },
+    {
+      "date": "07/11/2025",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "7:15pm"
+    },
+    {
+      "date": "07/12/2025",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "07/13/2025",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "07/18/2025",
+      "location": "Rogers Centre",
+      "opponent": "Blue",
+      "time": "4:07pm"
+    },
+    {
+      "date": "07/19/2025",
+      "location": "Rogers Centre",
+      "opponent": "Blue",
+      "time": "12:07pm"
+    },
+    {
+      "date": "07/20/2025",
+      "location": "Rogers Centre",
+      "opponent": "Blue",
+      "time": "9:05am"
+    },
+    {
+      "date": "07/21/2025",
+      "location": "Truist Park",
+      "opponent": "Braves",
+      "time": "4:15pm"
+    },
+    {
+      "date": "07/22/2025",
+      "location": "Truist Park",
+      "opponent": "Braves",
+      "time": "4:15pm"
+    },
+    {
+      "date": "07/23/2025",
+      "location": "Truist Park",
+      "opponent": "Braves",
+      "time": "9:15am"
+    },
+    {
+      "date": "07/25/2025",
+      "location": "Oracle Park",
+      "opponent": "Mets",
+      "time": "7:15pm"
+    },
+    {
+      "date": "07/26/2025",
+      "location": "Oracle Park",
+      "opponent": "Mets",
+      "time": "6:05pm"
+    },
+    {
+      "date": "07/27/2025",
+      "location": "Oracle Park",
+      "opponent": "Mets",
+      "time": "1:05pm"
+    },
+    {
+      "date": "07/28/2025",
+      "location": "Oracle Park",
+      "opponent": "Pirates",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/29/2025",
+      "location": "Oracle Park",
+      "opponent": "Pirates",
+      "time": "6:45pm"
+    },
+    {
+      "date": "07/30/2025",
+      "location": "Oracle Park",
+      "opponent": "Pirates",
+      "time": "12:45pm"
+    },
+    {
+      "date": "08/01/2025",
+      "location": "Citi Field",
+      "opponent": "Mets",
+      "time": "4:10pm"
+    },
+    {
+      "date": "08/02/2025",
+      "location": "Citi Field",
+      "opponent": "Mets",
+      "time": "1:10pm"
+    },
+    {
+      "date": "08/03/2025",
+      "location": "Citi Field",
+      "opponent": "Mets",
+      "time": "10:40am"
+    },
+    {
+      "date": "08/04/2025",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "3:40pm"
+    },
+    {
+      "date": "08/05/2025",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "3:40pm"
+    },
+    {
+      "date": "08/06/2025",
+      "location": "PNC Park",
+      "opponent": "Pirates",
+      "time": "9:35am"
+    },
+    {
+      "date": "08/08/2025",
+      "location": "Oracle Park",
+      "opponent": "Nationals",
+      "time": "7:15pm"
+    },
+    {
+      "date": "08/09/2025",
+      "location": "Oracle Park",
+      "opponent": "Nationals",
+      "time": "1:05pm"
+    },
+    {
+      "date": "08/10/2025",
+      "location": "Oracle Park",
+      "opponent": "Nationals",
+      "time": "1:05pm"
+    },
+    {
+      "date": "08/11/2025",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/12/2025",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/13/2025",
+      "location": "Oracle Park",
+      "opponent": "Padres",
+      "time": "12:45pm"
+    },
+    {
+      "date": "08/15/2025",
+      "location": "Oracle Park",
+      "opponent": "Rays",
+      "time": "7:15pm"
+    },
+    {
+      "date": "08/16/2025",
+      "location": "Oracle Park",
+      "opponent": "Rays",
+      "time": "6:05pm"
+    },
+    {
+      "date": "08/17/2025",
+      "location": "Oracle Park",
+      "opponent": "Rays",
+      "time": "1:05pm"
+    },
+    {
+      "date": "08/18/2025",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "6:40pm"
+    },
+    {
+      "date": "08/19/2025",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "6:40pm"
+    },
+    {
+      "date": "08/20/2025",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "6:40pm"
+    },
+    {
+      "date": "08/21/2025",
+      "location": "Petco Park",
+      "opponent": "Padres",
+      "time": "1:10pm"
+    },
+    {
+      "date": "08/22/2025",
+      "location": "American Family Field",
+      "opponent": "Brewers",
+      "time": "5:10pm"
+    },
+    {
+      "date": "08/23/2025",
+      "location": "American Family Field",
+      "opponent": "Brewers",
+      "time": "4:10pm"
+    },
+    {
+      "date": "08/24/2025",
+      "location": "American Family Field",
+      "opponent": "Brewers",
+      "time": "11:10am"
+    },
+    {
+      "date": "08/26/2025",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/27/2025",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "08/28/2025",
+      "location": "Oracle Park",
+      "opponent": "Cubs",
+      "time": "12:45pm"
+    },
+    {
+      "date": "08/29/2025",
+      "location": "Oracle Park",
+      "opponent": "Orioles",
+      "time": "7:15pm"
+    },
+    {
+      "date": "08/30/2025",
+      "location": "Oracle Park",
+      "opponent": "Orioles",
+      "time": "4:15pm"
+    },
+    {
+      "date": "08/31/2025",
+      "location": "Oracle Park",
+      "opponent": "Orioles",
+      "time": "1:05pm"
+    },
+    {
+      "date": "09/01/2025",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "1:10pm"
+    },
+    {
+      "date": "09/02/2025",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:40pm"
+    },
+    {
+      "date": "09/03/2025",
+      "location": "Coors Field",
+      "opponent": "Rockies",
+      "time": "5:40pm"
+    },
+    {
+      "date": "09/05/2025",
+      "location": "Busch Stadium",
+      "opponent": "Cardinals",
+      "time": "5:15pm"
+    },
+    {
+      "date": "09/06/2025",
+      "location": "Busch Stadium",
+      "opponent": "Cardinals",
+      "time": "4:15pm"
+    },
+    {
+      "date": "09/07/2025",
+      "location": "Busch Stadium",
+      "opponent": "Cardinals",
+      "time": "11:15am"
+    },
+    {
+      "date": "09/08/2025",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/09/2025",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/10/2025",
+      "location": "Oracle Park",
+      "opponent": "D-backs",
+      "time": "12:45pm"
+    },
+    {
+      "date": "09/12/2025",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "7:15pm"
+    },
+    {
+      "date": "09/13/2025",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "6:05pm"
+    },
+    {
+      "date": "09/14/2025",
+      "location": "Oracle Park",
+      "opponent": "Dodgers",
+      "time": "1:05pm"
+    },
+    {
+      "date": "09/15/2025",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "09/16/2025",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "6:40pm"
+    },
+    {
+      "date": "09/17/2025",
+      "location": "Chase Field",
+      "opponent": "D-backs",
+      "time": "12:40pm"
+    },
+    {
+      "date": "09/18/2025",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "09/19/2025",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "7:10pm"
+    },
+    {
+      "date": "09/20/2025",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "6:10pm"
+    },
+    {
+      "date": "09/21/2025",
+      "location": "Dodger Stadium",
+      "opponent": "Dodgers",
+      "time": "1:10pm"
+    },
+    {
+      "date": "09/22/2025",
+      "location": "Oracle Park",
+      "opponent": "Cardinals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/23/2025",
+      "location": "Oracle Park",
+      "opponent": "Cardinals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/24/2025",
+      "location": "Oracle Park",
+      "opponent": "Cardinals",
+      "time": "6:45pm"
+    },
+    {
+      "date": "09/26/2025",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "7:15pm"
+    },
+    {
+      "date": "09/27/2025",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "1:05pm"
+    },
+    {
+      "date": "09/28/2025",
+      "location": "Oracle Park",
+      "opponent": "Rockies",
+      "time": "12:05pm"
+    }
+  ]
+}

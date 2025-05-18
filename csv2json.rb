@@ -1,4 +1,9 @@
 # Download schedule CSV at https://www.mlb.com/giants/fans/downloadable-schedule
+# Click on "Download Full Season Schedule"
+# Put the downloaded csv file into ./data/source/
+# Rename to XXXXEventTicketPromotionPrice.csv (replacing XXXX with the current year)
+# Run `ruby csv2json.rb` from the root directory of this project
+# This should generate a new giantsXXXXschedule.json file in the ./data/ directory
 
 require 'csv'
 require 'json'
