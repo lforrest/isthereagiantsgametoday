@@ -10,15 +10,11 @@ To get a local copy of the current code, clone it using git:
 
 ## Running the code
 
-Open the JavaScript console in Google Chrome:
+The index.html file represents the main page that you see at https://isthereagiantsgametoday.com/.
 
-option + command + J
+Chrome and other browsers generally don't allow loading the json file when access the index file via the file:/// protocol (aka, if you open index.html directly, it won't work).  (You can try, but if you open the web inspector / Javascript console, you'll likely see the error: `XMLHttpRequest cannot load file:/// ... giants2012schedule.json. Origin null is not allowed by Access-Control-Allow-Origin.`.)
 
-If you get this error:
-
-XMLHttpRequest cannot load file:/// ... giants2012schedule.json. Origin null is not allowed by Access-Control-Allow-Origin.
-
-It's because you're trying to open the page without a web server running. To test your changes locally, you will need to start up Apache. If you're on OS X, you probably already have it preinstalled. You can also try MAMP.
+To get around this, you can use one of many [http static server one-liners](https://gist.github.com/willurd/5720255) - just pick whatever language you already have installed and then run that corresponding line in the root directory of this project, then navigate to http://localhost:8000/
 
 ## Contributing
 
